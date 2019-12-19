@@ -16,7 +16,7 @@ fontsize: 9pt
 
 
 
-** [TEMP] Will fill in with all primary forest plots - right now just printing one for space/speed of publishing **
+** [Coming soon] Will fill in with all primary forest plots - right now this page is empty due to the file size/difficuty publishing all the plots **
 
 
 <!-- Group plots by exposure -->

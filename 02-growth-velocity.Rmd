@@ -12,4 +12,6 @@ fontsize: 9pt
 
 
 
-** [TEMP] Will fill in with PAR plots of growth velocity **
+
+
+** [Coming soon] Will fill in with PAR plots of growth velocity **

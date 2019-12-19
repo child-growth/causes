@@ -11,4 +11,4 @@ fontsize: 9pt
 \raggedright
 
 
-** [TEMP] Will fill in with all primary plots, unadjusted  **
+** [Coming soon] Will fill in with all primary plots, unadjusted  **

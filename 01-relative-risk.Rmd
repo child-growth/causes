@@ -19,8 +19,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes
 
-```{r prev-re, echo = FALSE}
+```{r, echo = FALSE}
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-sex.png"))
+
+
+
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-birthlen.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-birthwt.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-cleanck.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-earlybf.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-fage.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-feducyrs.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-fhtcm.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-gagebrth.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-hdlvry.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-hfoodsec.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-hhwealth_quart.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-impfloor.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-impsan.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-mage.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-mbmi.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-meducyrs.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-mhtcm.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-mwtkg.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-nchldlt5.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-nhh.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-nrooms.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-parity.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-perdiar6.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-perdiar24.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-predexfd6.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-rain_quartile.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-safeh20.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-single.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-vagbrth.png"))
 ```
-
-
