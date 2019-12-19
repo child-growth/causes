@@ -15,6 +15,6 @@ fontsize: 9pt
 
 ### Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes
 
-<img src="/Users/Nolan/Documents/Berkeley/Colford-Hubbard/ki/causes/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-sex.png" width="4200" />
+<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/RR-plots/fig-RR-sex.png" width="4200" />
 
 

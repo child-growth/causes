@@ -1,7 +1,7 @@
 --- 
 title: "Supplement to Causes and consequences of child growth failure in low resource settings"
 author: "Andrew Mertens et al."
-date: "2019-12-18"
+date: "2019-12-19"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
