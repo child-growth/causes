@@ -1,0 +1,38 @@
+# Heatmaps {#heatmaps}
+
+---
+output:
+  pdf_document:
+    keep_tex: yes
+fontfamily: mathpazo
+fontsize: 9pt
+---
+
+\raggedright
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Heatmap of significance of estimates, region stratified
+
+```{r , echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_regionstrat.png"))
+```
+
+## Heatmap of significance of estimates pooled using fixed effects
+
+```{r , echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_FE.png"))
+```
+
+
+
+
+## Heatmap of significance of estimate, unadjusted 
+
+```{r , echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_unadj.png"))
+```
