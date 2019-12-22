@@ -22,7 +22,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, echo = FALSE}
 
 
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-vagbrth-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/haz-anywast06-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/haz-birthlen-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/haz-birthwt-spline.png"))
@@ -61,7 +60,6 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 
 ```{r, echo = FALSE}
 
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-anywast06-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-birthlen-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-birthwt-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-cleanck-spline.png"))
@@ -91,5 +89,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-sex-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-single-spline.png"))
 include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-trth2o-spline.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline plots/whz-vagbrth-spline.png"))
+
 
 ```
