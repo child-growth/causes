@@ -1,0 +1,36 @@
+# Mortality Sensitivity Analyses {#mortality}
+
+---
+output:
+  pdf_document:
+    keep_tex: yes
+fontfamily: mathpazo
+fontsize: 9pt
+---
+
+\raggedright
+
+
+```{r setup_mort, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+# source(paste0(here::here(), "//0-config.R"))
+```
+
+
+### Mortality sensitivity plots
+
+```{r, echo = FALSE}
+
+
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-time-death_FE.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_Region.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-sens.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-time-death.png"))
+
+```

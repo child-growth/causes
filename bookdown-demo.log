@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.12.18)  19 DEC 2019 12:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.12.18)  21 DEC 2019 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1299,11 +1299,11 @@ Chapter 5.
 ]
 Chapter 6.
 File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-sig-heatmap_regionstrat.png Graphic file (type bmp)
+s/risk-factor/spline_grid.png Graphic file (type bmp)
 <C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-sig-heatmap_regionstrat.png>
+k-factor/spline_grid.png>
 
-Overfull \hbox (425.01216pt too wide) in paragraph at lines 231--232
+Overfull \hbox (205.00867pt too wide) in paragraph at lines 217--218
 []  
  []
 
@@ -1311,92 +1311,1003 @@ Overfull \hbox (425.01216pt too wide) in paragraph at lines 231--232
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (232.80165pt too high) has occurred while \output is active []
 
 [54]
-Overfull \vbox (46.89604pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (19.53453pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 6.1.  HEATMAP OF SIGNIFICANCE OF ESTIMATES, REGION STRATIFIED \
-TU/lmr/m/n/10 55
- []
-
-[55]
 File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-sig-heatmap_FE.png Graphic file (type bmp)
+s/risk-factor/spline_grid_sens.png Graphic file (type bmp)
 <C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-sig-heatmap_FE.png>
+k-factor/spline_grid_sens.png>
 
-Overfull \hbox (106.79648pt too wide) in paragraph at lines 236--237
-[]  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[56]
-Overfull \vbox (46.90048pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (71.91125pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 6.2.  HEATMAP OF SIGNIFICANCE OF ESTIMATES POOLED USING FIXED E
-FFECTS \TU/lmr/m/n/10 57
- []
-
-[57]
-File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-sig-heatmap_unadj.png Graphic file (type bmp)
-<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-sig-heatmap_unadj.png>
-
-Overfull \hbox (106.79648pt too wide) in paragraph at lines 241--242
-[]  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[58]
-Overfull \vbox (46.8861pt too high) has occurred while \output is active []
-
-[59] [60
-
-]
-Chapter 7.
-File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-PAR-Probit-sensitivity.png Graphic file (type bmp)
-<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-PAR-Probit-sensitivity.png>
-
-Overfull \hbox (535.01387pt too wide) in paragraph at lines 258--259
+Overfull \hbox (205.00867pt too wide) in paragraph at lines 225--226
 [][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[61] [62]
-Chapter 8.
-No file bookdown-demo.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-[63
+[55] [56]
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline_grid_sens2.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline_grid_sens2.png>
+
+Overfull \hbox (205.00867pt too wide) in paragraph at lines 230--231
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[57]
+Overfull \vbox (36.54565pt too high) has occurred while \output is active []
+
+[58]
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline_grid_sens3.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline_grid_sens3.png>
+
+Overfull \hbox (205.00867pt too wide) in paragraph at lines 236--237
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[59]
+Overfull \vbox (38.87364pt too high) has occurred while \output is active []
+
+[60]
+Chapter 7.
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-vagbrth-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-vagbrth-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-anywast06-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-anywast06-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-birthlen-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-birthlen-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-birthwt-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-birthwt-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-cleanck-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-cleanck-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-earlybf-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-earlybf-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-enstunt-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-enstunt-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-enwast-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-enwast-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-fage-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-fage-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-feducyrs-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-feducyrs-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-fhtcm-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-fhtcm-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-gagebrth-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-gagebrth-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-hdlvry-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-hdlvry-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-hfoodsec-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-hfoodsec-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-hhwealth_quart-spline.png Graphic file (type bmp
+)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-hhwealth_quart-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-impfloor-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-impfloor-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-impsan-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-impsan-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-mage-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-mage-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-meducyrs-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-meducyrs-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-nchldlt5-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-nchldlt5-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-nhh-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-nhh-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-nrooms-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-nrooms-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-parity-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-parity-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-perdiar6-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-perdiar6-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-perdiar24-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-perdiar24-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-pers_wast-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-pers_wast-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-predexfd6-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-predexfd6-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-safeh20-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-safeh20-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-sex-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-sex-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-single-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-single-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-trth2o-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-trth2o-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/haz-vagbrth-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/haz-vagbrth-spline.png>
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 245--277
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[61
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Overfull \vbox (551.07228pt too high) has occurred while \output is active []
+
+[62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[75]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[76]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[90]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[91]
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-anywast06-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-anywast06-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-birthlen-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-birthlen-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-birthwt-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-birthwt-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-cleanck-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-cleanck-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-earlybf-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-earlybf-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-enstunt-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-enstunt-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-enwast-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-enwast-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-fage-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-fage-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-feducyrs-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-feducyrs-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-fhtcm-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-fhtcm-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-gagebrth-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-gagebrth-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-hdlvry-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-hdlvry-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-hfoodsec-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-hfoodsec-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-hhwealth_quart-spline.png Graphic file (type bmp
+)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-hhwealth_quart-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-impfloor-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-impfloor-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-impsan-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-impsan-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-mage-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-mage-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-meducyrs-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-meducyrs-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-nchldlt5-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-nchldlt5-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-nhh-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-nhh-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-nrooms-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-nrooms-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-parity-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-parity-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-perdiar6-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-perdiar6-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-perdiar24-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-perdiar24-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-pers_wast-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-pers_wast-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-predexfd6-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-predexfd6-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-safeh20-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-safeh20-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-sex-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-sex-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-single-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-single-spline.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/spline plots/whz-trth2o-spline.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/spline plots/whz-trth2o-spline.png>
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[] 
+ []
+
+
+Overfull \hbox (88.63965pt too wide) in paragraph at lines 281--311
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[93]
+Overfull \vbox (357.07228pt too high) has occurred while \output is active []
+
+[94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[97]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[100]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[102]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[104]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[105]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[106]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[107]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[108]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[110]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[121] [122]
+Chapter 8.
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-sig-heatmap_regionstrat.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-sig-heatmap_regionstrat.png>
+
+Overfull \hbox (425.01216pt too wide) in paragraph at lines 333--334
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[123
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[124]
+Overfull \vbox (46.89604pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (24.53453pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 8.1.  HEATMAP OF SIGNIFICANCE OF ESTIMATES, REGION STRATIFIED \
+TU/lmr/m/n/10 125
+ []
+
+[125]
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-sig-heatmap_FE.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-sig-heatmap_FE.png>
+
+Overfull \hbox (106.79648pt too wide) in paragraph at lines 338--339
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[126]
+Overfull \vbox (46.90048pt too high) has occurred while \output is active []
+
+
+Overfull \hbox (76.91125pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 8.2.  HEATMAP OF SIGNIFICANCE OF ESTIMATES POOLED USING FIXED E
+FFECTS \TU/lmr/m/n/10 127
+ []
+
+[127]
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-sig-heatmap_unadj.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-sig-heatmap_unadj.png>
+
+Overfull \hbox (106.79648pt too wide) in paragraph at lines 343--344
+[]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[128]
+Overfull \vbox (46.8861pt too high) has occurred while \output is active []
+
+[129] [130
+
+]
+Chapter 9.
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort-RR-time-death_FE.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort-RR-time-death_FE.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort+morb-RR.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort+morb-RR.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort+morb-RR_FE.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort+morb-RR_FE.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort+morb-RR_Region.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort+morb-RR_Region.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort-024.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort-024.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort-024_FE.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort-024_FE.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort-RR.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort-RR.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort-RR-sens.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort-RR-sens.png>
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-mort-RR-time-death.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-mort-RR-time-death.png>
+
+Overfull \hbox (666.82588pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Overfull \hbox (666.82588pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Overfull \hbox (811.37238pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Overfull \hbox (30.82101pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Overfull \hbox (30.82101pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Overfull \hbox (30.82101pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Overfull \hbox (30.82101pt too wide) in paragraph at lines 352--361
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[131]
+Overfull \vbox (625.69466pt too high) has occurred while \output is active []
+
+[132]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[133]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[135]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[136]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[137]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[138] [139] [140
+
+]
+Chapter 10.
+File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
+s/risk-factor/fig-PAR-Probit-sensitivity.png Graphic file (type bmp)
+<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
+k-factor/fig-PAR-Probit-sensitivity.png>
+
+Overfull \hbox (535.01387pt too wide) in paragraph at lines 377--378
+[][]  
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[141] [142]
+Chapter 11.
+No file bookdown-demo.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
+[143
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
 (./bookdown-demo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 390.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
 Package rerunfilecheck Info: File `bookdown-demo.out' has not changed.
-(rerunfilecheck)             Checksum: E575DA51F7A859ACF446A7EEB6F51637;1178.
+(rerunfilecheck)             Checksum: 6D508E934F3F6D27ED4C26E9B94DB0DD;1396.
  ) 
 Here is how much of TeX's memory you used:
- 23605 strings out of 494458
- 484023 string characters out of 6172051
- 526956 words of memory out of 5000000
- 27686 multiletter control sequences out of 15000+600000
+ 24442 strings out of 494458
+ 576474 string characters out of 6172051
+ 529093 words of memory out of 5000000
+ 28446 multiletter control sequences out of 15000+600000
  539696 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,4n,45p,810b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bookdown-demo.pdf (63 pages).
+Output written on bookdown-demo.pdf (143 pages).
