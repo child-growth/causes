@@ -42,26 +42,34 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 ```
 
 
-### Comparisons of associations between early growth failure and mortalit and serious growth failure, stratified  by region
+### Comparisons of associations between early growth failure and mortality and serious growth failure, stratified  by region
 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_Region.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_Region.png"))
 
 ```
 
-### Other
 
-
+### Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects
 
 
 ```{r, echo = FALSE}
-
-
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png"))
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png"))
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png"))
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png"))
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png"))
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_FE.png"))
 
 ```
+
+
+
+<!-- ### Other -->
+
+<!-- ```{r, echo = FALSE} -->
+
+
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png")) -->
+
+<!-- ``` -->

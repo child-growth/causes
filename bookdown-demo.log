@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.12.18)  21 DEC 2019 21:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.12.18)  22 JAN 2020 11:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2201,9 +2201,9 @@ Overfull \hbox (30.82101pt too wide) in paragraph at lines 364--365
  []
 
 File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-mort+morb-RR_Region.png Graphic file (type bmp)
+s/risk-factor/fig-mort-morb-RR_Region.png Graphic file (type bmp)
 <C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-mort+morb-RR_Region.png>
+k-factor/fig-mort-morb-RR_Region.png>
 
 Overfull \hbox (811.37238pt too wide) in paragraph at lines 370--371
 []  
@@ -2214,66 +2214,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [135]
 File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-mort+morb-RR.png Graphic file (type bmp)
+s/risk-factor/fig-mort-morb-RR_FE.png Graphic file (type bmp)
 <C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-mort+morb-RR.png>
-File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-mort+morb-RR_FE.png Graphic file (type bmp)
-<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-mort+morb-RR_FE.png>
-File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-mort-024.png Graphic file (type bmp)
-<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-mort-024.png>
-File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-mort-024_FE.png Graphic file (type bmp)
-<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-mort-024_FE.png>
-File: C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figure
-s/risk-factor/fig-mort-RR.png Graphic file (type bmp)
-<C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
-k-factor/fig-mort-RR.png>
+k-factor/fig-mort-morb-RR_FE.png>
 
-Overfull \hbox (666.82588pt too wide) in paragraph at lines 374--379
-[] 
- []
-
-
-Overfull \hbox (666.82588pt too wide) in paragraph at lines 374--379
-[] 
- []
-
-
-Overfull \hbox (30.82101pt too wide) in paragraph at lines 374--379
-[] 
- []
-
-
-Overfull \hbox (30.82101pt too wide) in paragraph at lines 374--379
-[] 
- []
-
-
-Overfull \hbox (30.82101pt too wide) in paragraph at lines 374--379
+Overfull \hbox (666.82588pt too wide) in paragraph at lines 376--377
 []  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[136]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[137]
-Overfull \vbox (225.251pt too high) has occurred while \output is active []
-
-[138]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[139]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[140] [141] [142
+[136] [137] [138
 
 ]
 Chapter 10.
@@ -2282,34 +2234,34 @@ s/risk-factor/fig-PAR-Probit-sensitivity.png Graphic file (type bmp)
 <C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/ris
 k-factor/fig-PAR-Probit-sensitivity.png>
 
-Overfull \hbox (535.01387pt too wide) in paragraph at lines 395--396
+Overfull \hbox (535.01387pt too wide) in paragraph at lines 393--394
 [][]  
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[143] [144]
+[139] [140]
 Chapter 11.
 No file bookdown-demo.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 408.
-[145
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 406.
+[141
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 408.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 406.
 (./bookdown-demo.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 408.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 408.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 406.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 406.
 Package rerunfilecheck Info: File `bookdown-demo.out' has not changed.
 (rerunfilecheck)             Checksum: 6D508E934F3F6D27ED4C26E9B94DB0DD;1396.
  ) 
 Here is how much of TeX's memory you used:
- 24424 strings out of 494458
- 574471 string characters out of 6172051
- 529661 words of memory out of 5000000
- 28430 multiletter control sequences out of 15000+600000
+ 24391 strings out of 494458
+ 571358 string characters out of 6172051
+ 529782 words of memory out of 5000000
+ 28400 multiletter control sequences out of 15000+600000
  539696 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,4n,45p,810b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bookdown-demo.pdf (145 pages).
+Output written on bookdown-demo.pdf (141 pages).

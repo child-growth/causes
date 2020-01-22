@@ -1,0 +1,28 @@
+\contentsline {chapter}{\numberline {1}Overview}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Relative risk plots}{7}{chapter.2}%
+\contentsline {subsection}{\numberline {2.0.1}Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes}{8}{subsection.2.0.1}%
+\contentsline {chapter}{\numberline {3}Growth velocity}{37}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Sensitivity analysis using fixed effects}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Primary manuscript figures recreated with estimates pooled using fixed effects}{39}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Unadjusted RF plots}{51}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Sensitivity spline plots}{53}{chapter.6}%
+\contentsline {subsection}{\numberline {6.0.1}Primary spline figures - meta-analysis of cohort specific splines}{54}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {6.0.2}Spline figures - meta-analysis of cohort specific splines, different parameters}{55}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {6.0.3}Primary spline figures - Single spline fit to all the data}{58}{subsection.6.0.3}%
+\contentsline {subsection}{\numberline {6.0.4}Primary spline figures - splines fit through meta-analyses of monthly means of Z-scores}{60}{subsection.6.0.4}%
+\contentsline {chapter}{\numberline {7}Spline plots - all exposures}{61}{chapter.7}%
+\contentsline {subsection}{\numberline {7.0.1}Secondary spline figures - LAZ stratified by levels of exposures}{62}{subsection.7.0.1}%
+\contentsline {subsection}{\numberline {7.0.2}Secondary spline figures - WLZ stratified by levels of exposures}{93}{subsection.7.0.2}%
+\contentsline {chapter}{\numberline {8}Heatmaps}{123}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Heatmap of significance of estimates, region stratified}{125}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Heatmap of significance of estimates pooled using fixed effects}{127}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Heatmap of significance of estimate, unadjusted}{129}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Mortality Sensitivity Analyses}{131}{chapter.9}%
+\contentsline {subsection}{\numberline {9.0.1}Comparisons of associations between early growth failure and different ages of mortality}{132}{subsection.9.0.1}%
+\contentsline {subsection}{\numberline {9.0.2}Comparisons of associations between early growth failure and different ages of mortality, pooled using fixed effects}{134}{subsection.9.0.2}%
+\contentsline {subsection}{\numberline {9.0.3}Comparisons of associations between early growth failure and different ages of mortality, dropping biyearly-measured cohorts}{135}{subsection.9.0.3}%
+\contentsline {subsection}{\numberline {9.0.4}Comparisons of associations between early growth failure and mortality and serious growth failure, stratified by region}{136}{subsection.9.0.4}%
+\contentsline {subsection}{\numberline {9.0.5}Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects}{137}{subsection.9.0.5}%
+\contentsline {chapter}{\numberline {10}Sensitivity to dropping PROBIT trial}{139}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Comparison of attributable differences estimated with and without the PROBIT trial}{139}{section.10.1}%
+\contentsline {chapter}{\numberline {11}Forest plots of relative risk}{141}{chapter.11}%

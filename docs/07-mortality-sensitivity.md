@@ -29,14 +29,28 @@ fontsize: 9pt
 <img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-sens.png" width="1560" />
 
 
-### Comparisons of associations between early growth failure and mortalit and serious growth failure, stratified  by region
+### Comparisons of associations between early growth failure and mortality and serious growth failure, stratified  by region
 
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_Region.png" width="4800" />
-
-### Other
+<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_Region.png" width="4800" />
 
 
+### Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects
 
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png" width="4200" /><img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png" width="4200" /><img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png" width="1560" /><img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png" width="1560" /><img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png" width="1560" />
+<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_FE.png" width="4200" />
+
+
+
+<!-- ### Other -->
+
+<!-- ```{r, echo = FALSE} -->
+
+
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png")) -->
+<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png")) -->
+
+<!-- ``` -->
