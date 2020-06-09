@@ -16,25 +16,14 @@ fontsize: 9pt
 
 
 
-** [Coming soon] Will fill in with all primary forest plots - right now this page is empty due to the file size/difficuty publishing all the plots **
+<!-- ** [Coming soon] Will fill in with all primary forest plots - right now this page is empty due to the file size/difficuty publishing all the plots ** -->
 
 
 <!-- Group plots by exposure -->
 
-<!-- ```{r  echo=FALSE, results='asis'} -->
-
-<!--    df <- d #%>% filter() -->
-<!--   #Dynamic title -->
-<!--   cat(paste0("#### ",df$intervention_variable[1])) -->
-
-<!-- ``` -->
+#### Outcome: ever_co Exposure: sex Age: 0-24 months
 
 
-<!-- ```{r, echo = FALSE} -->
-<!-- i<-1 -->
-<!-- #for(i in 1:length(df)){ -->
-<!--   print(df$plot[i]) -->
-<!-- #} -->
-<!-- ``` -->
+
 
 

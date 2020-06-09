@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 2 Relative risk plots | Supplement to Causes and consequences of child growth failure in low resource settings</title>
   <meta name="description" content="This is supplementary information to Longitudinal analysis of early childhood stunting in low-resource settings" />
-  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 2 Relative risk plots | Supplement to Causes and consequences of child growth failure in low resource settings" />
   <meta property="og:type" content="book" />
@@ -24,15 +24,15 @@
 <meta name="author" content="Andrew Mertens et al." />
 
 
-<meta name="date" content="2020-01-22" />
+<meta name="date" content="2020-06-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="velocity.html">
+<link rel="prev" href="index.html"/>
+<link rel="next" href="velocity.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -40,6 +40,9 @@
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
 
 
 
@@ -81,7 +84,7 @@
 <li class="chapter" data-level="6.0.3" data-path="sens-splines.html"><a href="sens-splines.html#primary-spline-figures---single-spline-fit-to-all-the-data"><i class="fa fa-check"></i><b>6.0.3</b> Primary spline figures - Single spline fit to all the data</a></li>
 <li class="chapter" data-level="6.0.4" data-path="sens-splines.html"><a href="sens-splines.html#primary-spline-figures---splines-fit-through-meta-analyses-of-monthly-means-of-z-scores"><i class="fa fa-check"></i><b>6.0.4</b> Primary spline figures - splines fit through meta-analyses of monthly means of Z-scores</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="rf-splines.html"><a href="rf-splines.html"><i class="fa fa-check"></i><b>7</b> Spline plots - all exposures</a><ul>
+<li class="chapter" data-level="7" data-path="rf-splines.html"><a href="rf-splines.html"><i class="fa fa-check"></i><b>7</b> spline-plots - all exposures</a><ul>
 <li class="chapter" data-level="7.0.1" data-path="rf-splines.html"><a href="rf-splines.html#secondary-spline-figures---laz-stratified-by-levels-of-exposures"><i class="fa fa-check"></i><b>7.0.1</b> Secondary spline figures - LAZ stratified by levels of exposures</a></li>
 <li class="chapter" data-level="7.0.2" data-path="rf-splines.html"><a href="rf-splines.html#secondary-spline-figures---wlz-stratified-by-levels-of-exposures"><i class="fa fa-check"></i><b>7.0.2</b> Secondary spline figures - WLZ stratified by levels of exposures</a></li>
 </ul></li>
@@ -141,11 +144,13 @@
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
 <script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
@@ -153,12 +158,11 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -170,6 +174,10 @@ gitbook.start({
 "text": "Edit"
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
