@@ -21,9 +21,23 @@ fontsize: 9pt
 
 <!-- Group plots by exposure -->
 
-#### Outcome: ever_co Exposure: sex Age: 0-24 months
+<!-- ```{r  echo=FALSE, results='asis'} -->
+
+<!--   #  df <- d #%>% filter() -->
+<!--   # #Dynamic title -->
+<!--   # cat(paste0("#### Outcome: ",df$outcome_variable[1]," Exposure: ", df$intervention_variable[1], " Age: ",  df$agecat[1])) -->
+
+<!-- ``` -->
 
 
 
+#### Outcome: ever_co Exposure: sex Age: 0-24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+#### Outcome: ever_co Exposure: sex Age: 0-24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-2.png" width="672" />
+#### Outcome: ever_co Exposure: sex Age: 0-24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-3.png" width="672" />
+#### Outcome: ever_co Exposure: sex Age: 0-24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-4.png" width="672" />
 
 

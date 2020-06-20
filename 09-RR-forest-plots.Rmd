@@ -31,20 +31,24 @@ d <- readRDS(file=paste0(here::here(), "/ki-longitudinal-manuscripts/figures/ris
 
 <!-- Group plots by exposure -->
 
-```{r  echo=FALSE, results='asis'}
+<!-- ```{r  echo=FALSE, results='asis'} -->
 
-   df <- d #%>% filter()
-  #Dynamic title
-  cat(paste0("#### Outcome: ",df$outcome_variable[1]," Exposure: ", df$intervention_variable[1], " Age: ",  df$agecat[1]))
+<!--   #  df <- d #%>% filter() -->
+<!--   # #Dynamic title -->
+<!--   # cat(paste0("#### Outcome: ",df$outcome_variable[1]," Exposure: ", df$intervention_variable[1], " Age: ",  df$agecat[1])) -->
 
-```
+<!-- ``` -->
 
 
-```{r, echo = FALSE}
-# i<-1
-# for(i in 1:length(df[[4]])){
-#   print(df$plot[i])
-# }
+```{r, echo = FALSE, results='asis'}
+i<-1
+for(i in 1:4){
+#for(i in 1:length(d[[4]])){
+  
+    cat(paste0("\n#### Outcome: ",d$outcome_variable[1]," Exposure: ", d$intervention_variable[1], " Age: ",  d$agecat[1]),"\n,")
+  
+  print(d$plot[i][[1]])
+}
 ```
 
 

@@ -16,29 +16,34 @@ fontsize: 9pt
 
 ### Comparisons of associations between early growth failure and different ages of mortality 
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png" width="1560" />
+
+\includegraphics[width=21.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR} 
 
 
 ### Comparisons of associations between early growth failure and different ages of mortality, pooled using fixed effects
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-time-death_FE.png" width="1560" />
+
+\includegraphics[width=21.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-time-death_FE} 
 
 
 ### Comparisons of associations between early growth failure and different ages of mortality, dropping biyearly-measured cohorts 
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-sens.png" width="1560" />
+
+\includegraphics[width=21.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-sens} 
 
 
 ### Comparisons of associations between early growth failure and mortality and serious growth failure, stratified  by region
 
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_Region.png" width="4800" />
+
+\includegraphics[width=66.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_Region} 
 
 
 ### Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects
 
 
-<img src="C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_FE.png" width="4200" />
+
+\includegraphics[width=58.33in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_FE} 
 
 
 
