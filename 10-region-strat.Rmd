@@ -1,0 +1,211 @@
+# Regionally-stratified plots {#RegionStrat}
+
+---
+output:
+  pdf_document:
+    keep_tex: yes
+fontfamily: mathpazo
+fontsize: 9pt
+---
+
+\raggedright
+
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+# source(paste0(here::here(), "/0-config.R"))
+```
+
+## Region and age-stratified population attributable differences in length-for-age Z-scores 
+
+
+**South Asia** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-SA.png"))
+
+```
+
+**Africa** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-Africa.png"))
+
+```
+
+
+**Latin America** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-LA.png"))
+
+```
+
+
+
+
+
+
+
+
+## Region and age-stratified population attributable differences in weight-for-length Z-scores 
+
+
+**South Asia** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-SA.png"))
+
+```
+
+**Africa** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-Africa.png"))
+
+```
+
+
+**Latin America** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-LA.png"))
+
+```
+
+
+
+
+
+
+
+
+## Region and age-stratified population attributable differences in weight-for-age Z-scores 
+
+
+**South Asia** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-SA.png"))
+
+```
+
+**Africa** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-Africa.png"))
+
+```
+
+
+**Latin America** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-LA.png"))
+
+```
+
+
+
+
+## Associations between key exposures and wasting and stunting cumulative incidence, stratified by the age of the child and by region
+
+
+
+**South Asia** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_SA.png"))
+
+```
+
+**Africa** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_Africa.png"))
+
+```
+
+
+**Latin America** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_LA.png"))
+
+```
+
+
+
+
+## Associations between key exposures and growth failure of different severities, stratified by region
+
+
+
+**South Asia** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-SA.png"))
+
+```
+
+**Africa** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-Africa.png"))
+
+```
+
+
+**Latin America** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-LA.png"))
+
+```
+
+
+
+
+
+## Adjusted differences in linear growth velocity (in centimeters) across 3-month age 624 bands, by quartile of weight-for-length z-score (WLZ) in the preceding three months, stratified by region.
+
+
+**South Asia** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-SA.png"))
+
+```
+
+**Africa** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-Africa.png"))
+
+```
+
+
+**Latin America** 
+
+```{r, echo = FALSE}
+include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-LA.png"))
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
