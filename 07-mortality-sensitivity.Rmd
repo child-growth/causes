@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Comparisons of associations between early growth failure and different ages of mortality 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR.png"))
 
 ```
 
@@ -29,7 +29,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 ### Comparisons of associations between early growth failure and different ages of mortality, pooled using fixed effects
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-time-death_FE.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR-time-death_FE.png"))
 
 ```
 
@@ -37,7 +37,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 ### Comparisons of associations between early growth failure and different ages of mortality, dropping biyearly-measured cohorts 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR-sens.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR-sens.png"))
 
 ```
 
@@ -46,7 +46,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_Region.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-morb-RR_Region.png"))
 
 ```
 
@@ -55,7 +55,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-morb-RR_FE.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-morb-RR_FE.png"))
 
 ```
 
@@ -66,10 +66,10 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 <!-- ```{r, echo = FALSE} -->
 
 
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort+morb-RR.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort+morb-RR_FE.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-024.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-024_FE.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR.png")) -->
 
 <!-- ``` -->

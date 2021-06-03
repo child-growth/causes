@@ -23,14 +23,14 @@ knitr::opts_chunk$set(echo = TRUE)
 **South Asia** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-SA.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-SA.png"))
 
 ```
 
 **Africa** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-Africa.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-Africa.png"))
 
 ```
 
@@ -38,7 +38,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manu
 **Latin America** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-LA.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-LA.png"))
 
 ```
 
@@ -55,14 +55,14 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manu
 **South Asia** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-SA.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-SA.png"))
 
 ```
 
 **Africa** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-Africa.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-Africa.png"))
 
 ```
 
@@ -70,7 +70,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manu
 **Latin America** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-LA.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-LA.png"))
 
 ```
 
@@ -87,14 +87,14 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manu
 **South Asia** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-SA.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-SA.png"))
 
 ```
 
 **Africa** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-Africa.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-Africa.png"))
 
 ```
 
@@ -102,7 +102,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manu
 **Latin America** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-LA.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-LA.png"))
 
 ```
 
@@ -116,14 +116,14 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manu
 **South Asia** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_SA.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-age-strat-wast_SA.png"))
 
 ```
 
 **Africa** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_Africa.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-age-strat-wast_Africa.png"))
 
 ```
 
@@ -131,7 +131,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 **Latin America** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_LA.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-age-strat-wast_LA.png"))
 
 ```
 
@@ -145,14 +145,14 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 **South Asia** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-SA.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-wast-perswast-comp-SA.png"))
 
 ```
 
 **Africa** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-Africa.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-wast-perswast-comp-Africa.png"))
 
 ```
 
@@ -160,7 +160,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 **Latin America** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-LA.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-wast-perswast-comp-LA.png"))
 
 ```
 
@@ -174,14 +174,14 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 **South Asia** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-SA.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-WLZ-quart-len-vel-SA.png"))
 
 ```
 
 **Africa** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-Africa.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-WLZ-quart-len-vel-Africa.png"))
 
 ```
 
@@ -189,7 +189,7 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 **Latin America** 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-LA.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-WLZ-quart-len-vel-LA.png"))
 
 ```
 

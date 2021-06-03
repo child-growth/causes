@@ -24,13 +24,13 @@ The heatmaps below are of the same design as Extended Data Figure 2, and show th
 ## Heatmap of significance of estimates, region stratified
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_regionstrat.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-sig-heatmap_regionstrat.png"))
 ```
 
 ## Heatmap of significance of estimates pooled using fixed effects
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_FE.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-sig-heatmap_FE.png"))
 ```
 
 
@@ -39,5 +39,5 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 ## Heatmap of significance of estimate, unadjusted 
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_unadj.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-sig-heatmap_unadj.png"))
 ```

@@ -30,7 +30,7 @@ Exposures, rank ordered by pooled population attributable difference on child WL
 
 
 <!-- ```{r , echo = FALSE} -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-vel-PAR.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-vel-PAR.png")) -->
 <!-- ``` -->
 
 

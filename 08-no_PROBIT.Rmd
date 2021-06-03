@@ -31,6 +31,6 @@ Because PROBIT was the only European study, we also conducted a sensitivity anal
 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-PAR-Probit-sensitivity.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/fig-PAR-Probit-sensitivity.png"))
 ```
 

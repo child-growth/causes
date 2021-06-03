@@ -52,10 +52,10 @@ fontsize: 9pt
 <!-- ```{r, echo = FALSE} -->
 
 
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort+morb-RR_FE.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-024_FE.png")) -->
-<!-- include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/fig-mort-RR.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort+morb-RR.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort+morb-RR_FE.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-024.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-024_FE.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR.png")) -->
 
 <!-- ``` -->

@@ -21,25 +21,25 @@ Exposures, rank ordered by population attributable difference on child LAZ, stra
  
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-age_FE.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-age_FE.png"))
 ```
 
 ## Age-stratified population attributable differences in weight-for-length Z-scores, pooled using fixed effects models.
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-age_FE.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-age_FE.png"))
 ```
 
 ## Region-stratified population attributable differences in length-for-age Z-scores, pooled using fixed effects models.
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-region_FE.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-region_FE.png"))
 ```
 
 ## Region-stratified population attributable differences in weight-for-length Z-scores, pooled using fixed effects models.
 
 ```{r , echo = FALSE}
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-region_FE.png"))
+include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-region_FE.png"))
 ```
 
 

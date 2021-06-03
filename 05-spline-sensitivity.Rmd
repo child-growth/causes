@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, echo = FALSE}
 
 
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline_grid.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/spline_grid.png"))
 
 ```
 
@@ -32,7 +32,7 @@ Centered at age = 1 says and with 6 degrees of freedom
 
 ```{r, echo = FALSE}
 
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline_grid_sens.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/spline_grid_sens.png"))
 
 ```
 
@@ -40,14 +40,14 @@ include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk
 
 ```{r, echo = FALSE}
 
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline_grid_sens2.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/spline_grid_sens2.png"))
 ```
 
 ### Primary spline figures - splines fit through meta-analyses of monthly means of Z-scores 
 
 ```{r, echo = FALSE}
 
-include_graphics(paste0(here::here(), "/ki-longitudinal-manuscripts/figures/risk-factor/spline_grid_sens3.png"))
+include_graphics(paste0(fig_dir, "/risk-factor/spline_grid_sens3.png"))
 
 
 ```
