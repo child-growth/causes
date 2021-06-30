@@ -46,7 +46,7 @@ include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR-sens.png"))
 
 
 ```{r, echo = FALSE}
-# include_graphics(paste0(fig_dir,  "/risk-factor/fig-mort-morb-RR_Region.png"))
+  # include_graphics(paste0(fig_dir,  "/risk-factor/fig-mort-morb-RR_Region.png"))
 
 ```
 
