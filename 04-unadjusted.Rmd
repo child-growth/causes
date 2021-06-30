@@ -13,6 +13,8 @@ fontsize: 9pt
 ```{r setup, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
+source(paste0(here::here(), "/0-config.R"))
+
 ```
 
 ## Age-stratified population attributable differences in length-for-age Z-scores, pooled using fixed effects models.

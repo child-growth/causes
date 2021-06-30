@@ -17,6 +17,7 @@ fontsize: 9pt
 library(knitr)
 library(tidyverse)
 knitr::opts_chunk$set(echo = FALSE, message=FALSE)
+source(paste0(here::here(), "/0-config.R"))
 
 d <- readRDS(file=paste0(fig_dir, "/risk-factor/figure-data/all_forest_plot_RR.RDS"))
 

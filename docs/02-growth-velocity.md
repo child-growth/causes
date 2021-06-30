@@ -19,8 +19,7 @@ fontsize: 9pt
 Exposures, rank ordered by pooled population attributable difference on child LAZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.
 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-vel-PAR} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-vel-PAR.png" width="2250" />
 
 
 

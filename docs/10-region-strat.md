@@ -18,19 +18,16 @@ fontsize: 9pt
 
 **South Asia** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-SA} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-SA.png" width="2250" />
 
 **Africa** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-Africa} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-Africa.png" width="2250" />
 
 
 **Latin America** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-LA} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-LA.png" width="2250" />
 
 
 
@@ -44,19 +41,16 @@ fontsize: 9pt
 
 **South Asia** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-SA} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-SA.png" width="2250" />
 
 **Africa** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-Africa} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-Africa.png" width="2250" />
 
 
 **Latin America** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-LA} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-LA.png" width="2250" />
 
 
 
@@ -70,19 +64,16 @@ fontsize: 9pt
 
 **South Asia** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-SA} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-SA.png" width="2250" />
 
 **Africa** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-Africa} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-Africa.png" width="2250" />
 
 
 **Latin America** 
 
-
-\includegraphics[width=62.5in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-LA} 
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-waz-PAR-strat-LA.png" width="2250" />
 
 
 
@@ -93,19 +84,16 @@ fontsize: 9pt
 
 **South Asia** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_SA} 
+<img src="figures//risk-factor/fig-age-strat-wast_SA.png" width="1500" />
 
 **Africa** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_Africa} 
+<img src="figures//risk-factor/fig-age-strat-wast_Africa.png" width="1500" />
 
 
 **Latin America** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-age-strat-wast_LA} 
+<img src="figures//risk-factor/fig-age-strat-wast_LA.png" width="1500" />
 
 
 
@@ -116,19 +104,16 @@ fontsize: 9pt
 
 **South Asia** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-SA} 
+<img src="figures//risk-factor/fig-wast-perswast-comp-SA.png" width="1500" />
 
 **Africa** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-Africa} 
+<img src="figures//risk-factor/fig-wast-perswast-comp-Africa.png" width="1500" />
 
 
 **Latin America** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-wast-perswast-comp-LA} 
+<img src="figures//risk-factor/fig-wast-perswast-comp-LA.png" width="1500" />
 
 
 
@@ -139,19 +124,16 @@ fontsize: 9pt
 
 **South Asia** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-SA} 
+<img src="figures//risk-factor/fig-WLZ-quart-len-vel-SA.png" width="1500" />
 
 **Africa** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-Africa} 
+<img src="figures//risk-factor/fig-WLZ-quart-len-vel-Africa.png" width="1500" />
 
 
 **Latin America** 
 
-
-\includegraphics[width=41.67in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-WLZ-quart-len-vel-LA} 
+<img src="figures//risk-factor/fig-WLZ-quart-len-vel-LA.png" width="1500" />
 
 
 

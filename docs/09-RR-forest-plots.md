@@ -31,13 +31,13 @@ fontsize: 9pt
 
 
 
-#### Outcome: ever_co Exposure: sex Age: 0-24 months 
-,![](09-RR-forest-plots_files/figure-latex/unnamed-chunk-1-1.pdf)<!-- --> 
-#### Outcome: ever_co Exposure: sex Age: 0-24 months 
-,![](09-RR-forest-plots_files/figure-latex/unnamed-chunk-1-2.pdf)<!-- --> 
-#### Outcome: ever_co Exposure: sex Age: 0-24 months 
-,![](09-RR-forest-plots_files/figure-latex/unnamed-chunk-1-3.pdf)<!-- --> 
-#### Outcome: ever_co Exposure: sex Age: 0-24 months 
-,![](09-RR-forest-plots_files/figure-latex/unnamed-chunk-1-4.pdf)<!-- --> 
+#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-2.png" width="672" />
+#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-3.png" width="672" />
+#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
+,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-4.png" width="672" />
 
 
