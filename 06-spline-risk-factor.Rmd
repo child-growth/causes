@@ -14,7 +14,7 @@ fontsize: 9pt
 ```{r setup_splines, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
-# source(paste0(here::here(), "/0-config.R"))
+source(paste0(here::here(), "/0-config.R"))
 ```
 
 ### Secondary spline figures  - LAZ stratified by levels of exposures

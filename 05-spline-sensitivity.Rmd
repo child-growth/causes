@@ -14,7 +14,7 @@ fontsize: 9pt
 ```{r setup_splines, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
-# source(paste0(here::here(), "/0-config.R"))
+source(paste0(here::here(), "/0-config.R"))
 ```
 
 ### Primary spline figures  - meta-analysis of cohort specific splines

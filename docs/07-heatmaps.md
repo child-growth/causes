@@ -20,18 +20,15 @@ The heatmaps below are of the same design as Extended Data Figure 2, and show th
 
 ## Heatmap of significance of estimates, region stratified
 
-
-\includegraphics[width=58.33in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_regionstrat} 
+<img src="figures//risk-factor/fig-sig-heatmap_regionstrat.png" width="2100" />
 
 ## Heatmap of significance of estimates pooled using fixed effects
 
-
-\includegraphics[width=47.92in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_FE} 
+<img src="figures//risk-factor/fig-sig-heatmap_FE.png" width="1725" />
 
 
 
 
 ## Heatmap of significance of estimate, unadjusted 
 
-
-\includegraphics[width=47.92in]{C:/Users/andre/Documents/HBGDki/causes/ki-longitudinal-manuscripts/figures/risk-factor/fig-sig-heatmap_unadj} 
+<img src="figures//risk-factor/fig-sig-heatmap_unadj.png" width="1725" />

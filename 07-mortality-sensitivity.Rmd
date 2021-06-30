@@ -14,7 +14,7 @@ fontsize: 9pt
 ```{r setup_mort, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = TRUE)
-# source(paste0(here::here(), "//0-config.R"))
+source(paste0(here::here(), "//0-config.R"))
 ```
 
 
@@ -46,7 +46,7 @@ include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-RR-sens.png"))
 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-morb-RR_Region.png"))
+  # include_graphics(paste0(fig_dir,  "/risk-factor/fig-mort-morb-RR_Region.png"))
 
 ```
 
@@ -55,7 +55,7 @@ include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-morb-RR_Region.png"))
 
 
 ```{r, echo = FALSE}
-include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-morb-RR_FE.png"))
+#include_graphics(paste0(fig_dir, "/risk-factor/fig-mort-morb-RR_FE.png"))
 
 ```
 
