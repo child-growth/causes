@@ -8,6 +8,13 @@ fontfamily: mathpazo
 fontsize: 9pt
 ---
 
+## Overview
+
+__Purpose: __
+__Interpretation: __
+__Implications: __
+
+
 \raggedright
 
 ```{r setup, include=FALSE}

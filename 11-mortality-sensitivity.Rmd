@@ -17,6 +17,13 @@ knitr::opts_chunk$set(echo = TRUE)
 source(paste0(here::here(), "//0-config.R"))
 ```
 
+## Overview
+
+__Purpose: __
+__Interpretation: __
+__Implications: __
+
+
 
 ### Comparisons of associations between early growth failure and different ages of mortality 
 
