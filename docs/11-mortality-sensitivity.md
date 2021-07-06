@@ -39,13 +39,13 @@ __Implications: __
 ### Comparisons of associations between early growth failure and mortality and serious growth failure, stratified  by region
 
 
-
+<img src="figures//risk-factor/fig-mort+morb-RR_Region.png" width="2400" />
 
 
 ### Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects
 
 
-
+<img src="figures//risk-factor/fig-mort+morb-RR_FE.png" width="2100" />
 
 
 

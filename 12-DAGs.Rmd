@@ -1,0 +1,27 @@
+# Mortality Sensitivity Analyses {#dags}
+
+---
+output:
+  pdf_document:
+    keep_tex: yes
+fontfamily: mathpazo
+fontsize: 9pt
+---
+
+\raggedright
+
+
+```{r setup_mort, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+source(paste0(here::here(), "//0-config.R"))
+```
+
+## Overview
+
+__Purpose: __
+__Interpretation: __
+__Implications: __
+
+
+

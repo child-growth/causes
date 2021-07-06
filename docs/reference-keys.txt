@@ -51,3 +51,6 @@ comparisons-of-associations-between-early-growth-failure-and-different-ages-of-m
 comparisons-of-associations-between-early-growth-failure-and-different-ages-of-mortality-dropping-biyearly-measured-cohorts
 comparisons-of-associations-between-early-growth-failure-and-mortality-and-serious-growth-failure-stratified-by-region
 comparisons-of-associations-between-early-growth-failure-and-mortality-and-serious-growth-failure-pooled-using-fixed-effects
+outcome-stunting-prev.-exposure-sex-age-24-months-1
+outcome-stunting-prev.-exposure-sex-age-24-months-2
+outcome-stunting-prev.-exposure-sex-age-24-months-3
