@@ -10,7 +10,16 @@ fontsize: 9pt
 
 \raggedright
 
+## Overview
+
+__Purpose: __
+__Interpretation: __
+__Implications: __
+
+
 The primary analyses presented in this manuscript pooled across individual studies using random effects. Inferences about estimates from fixed effects models are restricted to only the included studies.[^1] The random effects approach was more conservative in the presence of study heterogeneity, as evidenced by larger confidence intervals around each point estimates. Overall, the inference from results produced by each method was similar. 
+
+
 
 
 
