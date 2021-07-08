@@ -1,7 +1,7 @@
 --- 
 title: "Supplement to Causes and consequences of child growth failure in low- and middle-income countries"
 author: "Andrew Mertens et al."
-date: "2021-07-06"
+date: "2021-07-08"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book

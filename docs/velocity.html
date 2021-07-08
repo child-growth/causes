@@ -24,7 +24,7 @@
 <meta name="author" content="Andrew Mertens et al." />
 
 
-<meta name="date" content="2021-07-06" />
+<meta name="date" content="2021-07-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -84,8 +84,8 @@
 <li class="chapter" data-level="3" data-path="velocity.html"><a href="velocity.html"><i class="fa fa-check"></i><b>3</b> Growth velocity</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="velocity.html"><a href="velocity.html#overview-2"><i class="fa fa-check"></i><b>3.1</b> Overview</a></li>
-<li class="chapter" data-level="3.2" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-length-for-age-z-scores-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.2</b> Age-stratified population attributable differences in change in length-for-age Z-scores over 3-month age bands.</a></li>
-<li class="chapter" data-level="3.3" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-weight-for-length-z-scores-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.3</b> Age-stratified population attributable differences in change in weight-for-length Z-scores over 3-month age bands.</a></li>
+<li class="chapter" data-level="3.2" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-child-length-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.2</b> Age-stratified population attributable differences in change in child length over 3-month age bands.</a></li>
+<li class="chapter" data-level="3.3" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-child-weight-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.3</b> Age-stratified population attributable differences in change in child weight over 3-month age bands.</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="fixed-effects.html"><a href="fixed-effects.html"><i class="fa fa-check"></i><b>4</b> Sensitivity analysis using fixed effects</a>
 <ul>
@@ -155,6 +155,10 @@
 <li class="chapter" data-level="12.1.5" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-mortality-and-serious-growth-failure-pooled-using-fixed-effects"><i class="fa fa-check"></i><b>12.1.5</b> Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects</a></li>
 </ul></li>
 </ul></li>
+<li class="chapter" data-level="13" data-path="dags.html"><a href="dags.html"><i class="fa fa-check"></i><b>13</b> Mortality Sensitivity Analyses</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="dags.html"><a href="dags.html#overview-12"><i class="fa fa-check"></i><b>13.1</b> Overview</a></li>
+</ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -183,17 +187,26 @@
 <strong>Interpretation: </strong>
 <strong>Implications: </strong></p>
 </div>
-<div id="age-stratified-population-attributable-differences-in-change-in-length-for-age-z-scores-over-3-month-age-bands." class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Age-stratified population attributable differences in change in length-for-age Z-scores over 3-month age bands.</h2>
-<p>Exposures, rank ordered by pooled population attributable difference on child LAZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.</p>
-<p><img src="figures/manuscript-figure-composites/risk-factor/extended-data/fig-laz-vel-PAR.png" width="2250" /></p>
+<div id="age-stratified-population-attributable-differences-in-change-in-child-length-over-3-month-age-bands." class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Age-stratified population attributable differences in change in child length over 3-month age bands.</h2>
+<p>Exposures, rank ordered by pooled population attributable difference on child length velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean differences in lengths (cm) if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.</p>
+<p><img src="figures/manuscript-figure-composites/risk-factor/extended-data/fig-length-vel-PAR.png" width="2250" /></p>
 </div>
-<div id="age-stratified-population-attributable-differences-in-change-in-weight-for-length-z-scores-over-3-month-age-bands." class="section level2" number="3.3">
-<h2><span class="header-section-number">3.3</span> Age-stratified population attributable differences in change in weight-for-length Z-scores over 3-month age bands.</h2>
-<p>Exposures, rank ordered by pooled population attributable difference on child WLZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.</p>
+<div id="age-stratified-population-attributable-differences-in-change-in-child-weight-over-3-month-age-bands." class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Age-stratified population attributable differences in change in child weight over 3-month age bands.</h2>
+<p>Exposures, rank ordered by pooled population attributable difference on child length velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean differences in lengths (cm) if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.</p>
+<p><img src="figures/manuscript-figure-composites/risk-factor/extended-data/fig-weight-vel-PAR.png" width="2250" /></p>
+<!-- ## Age-stratified population attributable differences in change in length-for-age Z-scores over 3-month age bands. -->
+<!-- Exposures, rank ordered by pooled population attributable difference on child LAZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway. -->
 <!-- ```{r , echo = FALSE} -->
-<!-- include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-vel-PAR.png")) -->
+<!-- include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-laz-vel-PAR.png")) -->
 <!-- ``` -->
+<!-- ## Age-stratified population attributable differences in change in weight-for-length Z-scores over 3-month age bands. -->
+<!-- Exposures, rank ordered by pooled population attributable difference on child WLZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway. -->
+<!-- <!-- ```{r , echo = FALSE} -->
+<p>–&gt;
+<!-- <!-- include_graphics(paste0(fig_dir, "/manuscript-figure-composites/risk-factor/extended-data/fig-wlz-vel-PAR.png")) --> –&gt;
+<!-- <!-- ``` --> –&gt;</p>
 
 </div>
 </div>
