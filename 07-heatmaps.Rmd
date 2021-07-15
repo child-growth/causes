@@ -32,7 +32,7 @@ The heatmaps below are of the same design as Extended Data Figure 2, and show th
 ## Heatmap of significance of estimates, region stratified
 
 ```{r , echo = FALSE}
-include_graphics(paste0(fig_dir, "/risk-factor/fig-sig-heatmap_regionstrat.png"))
+#try(include_graphics(paste0(fig_dir, "/risk-factor/fig-sig-heatmap_regionstrat.png")))
 ```
 
 ## Heatmap of significance of estimates pooled using fixed effects

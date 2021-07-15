@@ -11,11 +11,7 @@ fontsize: 9pt
 \raggedright
 
 
-```{r setup_mort, include=FALSE}
-library(knitr)
-knitr::opts_chunk$set(echo = TRUE)
-source(paste0(here::here(), "/0-config.R"))
-```
+
 
 ## Overview
 

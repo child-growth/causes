@@ -26,7 +26,7 @@ The heatmaps below are of the same design as Extended Data Figure 2, and show th
 
 ## Heatmap of significance of estimates, region stratified
 
-<img src="figures//risk-factor/fig-sig-heatmap_regionstrat.png" width="2100" />
+
 
 ## Heatmap of significance of estimates pooled using fixed effects
 
