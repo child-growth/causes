@@ -53,3 +53,4 @@ comparisons-of-associations-between-early-growth-failure-and-mortality-and-serio
 comparisons-of-associations-between-early-growth-failure-and-mortality-and-serious-growth-failure-pooled-using-fixed-effects
 dags
 overview-12
+example-dag

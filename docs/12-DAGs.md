@@ -1,4 +1,4 @@
-# Mortality Sensitivity Analyses {#dags}
+# Directed Acyclic Diagrams (DAGs) {#dags}
 
 ---
 output:
@@ -20,4 +20,12 @@ __Interpretation: __
 __Implications: __
 
 
+## Example DAG 
+
+
+```
+## [1] TRUE
+```
+
+<img src="figures/dags/dags/cc-example-dag.png" width="1500" />
 

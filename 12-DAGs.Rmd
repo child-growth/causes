@@ -1,4 +1,4 @@
-# Mortality Sensitivity Analyses {#dags}
+# Directed Acyclic Diagrams (DAGs) {#dags}
 
 ---
 output:
@@ -24,4 +24,13 @@ __Interpretation: __
 __Implications: __
 
 
+## Example DAG 
+
+```{r, echo = FALSE, message=F}
+
+file.copy(from="/home/andrew.mertens/ki-longitudinal-manuscripts/figures/dags/", 
+          to=paste0(here::here(), "/figures/dags/"), overwrite=TRUE, recursive=TRUE)
+include_graphics(paste0(fig_dir,"dags/dags/cc-example-dag.png"))
+
+```
 
