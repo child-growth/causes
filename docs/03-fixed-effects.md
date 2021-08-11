@@ -30,16 +30,16 @@ More estimates are significant when pooling using fixed effects due to the gener
 <img src="figures//risk-factor/fig-sig-heatmap_FE.png" width="1725" />
 **Figure 1a.  Heatmap of significance and direction across exposure-outcome combinations of associations estimated using fixed effects. ** 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-age_FE.png" width="2250" />
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-age_FE.png" width="1800" />
 **Extended Data Figure 3 | Age-stratified population attributable differences in length-for-age Z-scores estimated using fixed effects. ** 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-age_FE.png" width="2250" />
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-age_FE.png" width="1800" />
 **Extended Data Figure 4 | Age-stratified population attributable differences in weight-for-length Z-scores estimated using fixed effects. ** 
 
 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-region_FE.png" width="2250" />
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-region_FE.png" width="1800" />
 **Extended Data Figure 7 | Region-stratified population attributable differences in length-for-age Z-scores estimated using fixed effects. ** 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-region_FE.png" width="2250" />
+<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-region_FE.png" width="1800" />
 **Extended Data Figure 8 | Region-stratified population attributable differences in weight-for-length Z-scores estimated using fixed effects. ** 

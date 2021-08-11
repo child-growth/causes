@@ -4,6 +4,8 @@ overview-1
 relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes
 velocity
 overview-2
+age-stratified-population-attributable-differences-in-change-in-length-for-age-z-scores-over-3-month-age-bands.
+age-stratified-population-attributable-differences-in-change-in-weight-for-age-z-scores-over-3-month-age-bands.
 age-stratified-population-attributable-differences-in-change-in-child-length-over-3-month-age-bands.
 age-stratified-population-attributable-differences-in-change-in-child-weight-over-3-month-age-bands.
 fixed-effects
