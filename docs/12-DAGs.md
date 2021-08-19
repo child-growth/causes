@@ -24,7 +24,15 @@ __Implications: __
 
 
 ```
-## [1] TRUE
+## Warning in file.copy(from = "/home/andrew.mertens/ki-
+## longitudinal-manuscripts/figures/dags/", : problem copying
+## \home\andrew.mertens\ki-longitudinal-manuscripts\figures\dags to C:
+## \Users\andre\Documents\HBGDki\causes\figures\dags\dags: No such file or
+## directory
+```
+
+```
+## [1] FALSE
 ```
 
 <img src="figures/dags/dags/cc-example-dag.png" width="1500" />
