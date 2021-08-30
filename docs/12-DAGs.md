@@ -24,7 +24,14 @@ __Implications: __
 
 
 ```
-## [1] TRUE
+## Warning in file.copy(from = "/home/andrew.mertens/ki-longitudinal-manuscripts/
+## figures/dags/", : problem copying /home/andrew.mertens/ki-longitudinal-
+## manuscripts/figures/dags to /home/sdjajadi/causes/figures/dags/dags: Permission
+## denied
+```
+
+```
+## [1] FALSE
 ```
 
 <img src="figures/dags/dags/cc-example-dag.png" width="1500" />
