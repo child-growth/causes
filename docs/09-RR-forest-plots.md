@@ -18,6 +18,8 @@ __Interpretation: __
 __Implications: __
 
 
+(Interactive seaching and selecting of forest plots in development. Example plot shown here for the moment.)
+
 
 
 
@@ -39,11 +41,5 @@ __Implications: __
 
 #### Outcome: Stunting prev. Exposure: sex Age: 24 months 
 ,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-1.png" width="672" />
-#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
-,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-2.png" width="672" />
-#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
-,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-3.png" width="672" />
-#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
-,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-4.png" width="672" />
 
 

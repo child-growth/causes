@@ -1,7 +1,6 @@
 overview
 RR
 overview-1
-to-do
 relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes
 velocity
 overview-2

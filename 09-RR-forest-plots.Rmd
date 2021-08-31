@@ -18,6 +18,8 @@ __Interpretation: __
 __Implications: __
 
 
+(Interactive seaching and selecting of forest plots in development. Example plot shown here for the moment.)
+
 
 ```{r setup, include=FALSE}
 library(knitr)
@@ -49,7 +51,7 @@ d <- readRDS(file=paste0(fig_dir, "/risk-factor/figure-data/all_forest_plot_RR.R
 
 ```{r, echo = FALSE, results='asis'}
 i<-1
-for(i in 1:4){
+for(i in 1:1){
 #for(i in 1:length(d[[4]])){
   
     cat(paste0("\n#### Outcome: ",d$outcome_variable[1]," Exposure: ", d$intervention_variable[1], " Age: ",  d$agecat[1]),"\n,")

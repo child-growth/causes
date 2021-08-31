@@ -13,11 +13,17 @@ fontsize: 9pt
 ## Overview
 
 __Purpose: __
+In the primary manuscript, we compared estimates pooled across studies using random effects models, which are more conservative in the presence of heterogeneity across studies. Here, we present estimates pooled using fixed effects. Inferences about estimates from fixed effects models are restricted to only the included studies, while random effects estimates assume included studies are sampled from a distribution of hypothetical studies.[^1] 
+
 __Interpretation: __
-__Implications: __
+
+Fixed effect estimates had narrow confidence intervals, and therefore more risk factors had statistically significant PIEs. 
+
+__Implications:__
+
+The fixed effect estimates are weighted towards results from larger studies, so are more heavily influenced by the large Jivita-3, Probit, and ZVITAMBO trials. But in general, the key exposures identified from the random-effects estimates were also had the strongest associations when pooled using fixed-effect estimates.
 
 
-The primary analyses presented in this manuscript pooled across individual studies using random effects. Inferences about estimates from fixed effects models are restricted to only the included studies.[^1] The random effects approach was more conservative in the presence of study heterogeneity, as evidenced by larger confidence intervals around each point estimates. Overall, the inference from results produced by each method was similar. 
 
 
 

@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Pooled relative risk and average treatment effect plots | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries</title>
+  <title>Chapter 2 Relative risk plots | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries</title>
   <meta name="description" content="This is supplementary information to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Pooled relative risk and average treatment effect plots | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  <meta property="og:title" content="Chapter 2 Relative risk plots | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Pooled relative risk and average treatment effect plots | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  <meta name="twitter:title" content="Chapter 2 Relative risk plots | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
   
   <meta name="twitter:description" content="This is supplementary information to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
   
@@ -24,7 +24,7 @@
 <meta name="author" content="Andrew Mertens et al." />
 
 
-<meta name="date" content="2021-08-30" />
+<meta name="date" content="2021-08-31" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -70,16 +70,15 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Stunting Supplementary Information</a></li>
+<li><a href="./">Causes and Consequences Supplementary Information</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
-<li class="chapter" data-level="2" data-path="RR.html"><a href="RR.html"><i class="fa fa-check"></i><b>2</b> Pooled relative risk and average treatment effect plots</a>
+<li class="chapter" data-level="2" data-path="RR.html"><a href="RR.html"><i class="fa fa-check"></i><b>2</b> Relative risk plots</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="RR.html"><a href="RR.html#overview-1"><i class="fa fa-check"></i><b>2.1</b> Overview</a></li>
-<li class="chapter" data-level="2.2" data-path="RR.html"><a href="RR.html#to-do"><i class="fa fa-check"></i><b>2.2</b> To do:</a>
+<li class="chapter" data-level="2.1" data-path="RR.html"><a href="RR.html#overview-1"><i class="fa fa-check"></i><b>2.1</b> Overview</a>
 <ul>
-<li class="chapter" data-level="2.2.1" data-path="RR.html"><a href="RR.html#relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes"><i class="fa fa-check"></i><b>2.2.1</b> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</a></li>
+<li class="chapter" data-level="2.1.1" data-path="RR.html"><a href="RR.html#relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes"><i class="fa fa-check"></i><b>2.1.1</b> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="velocity.html"><a href="velocity.html"><i class="fa fa-check"></i><b>3</b> Growth velocity</a>
@@ -184,23 +183,18 @@
 
             <section class="normal" id="section-">
 <div id="RR" class="section level1" number="2">
-<h1><span class="header-section-number">Chapter 2</span> Pooled relative risk and average treatment effect plots</h1>
+<h1><span class="header-section-number">Chapter 2</span> Relative risk plots</h1>
 <div id="overview-1" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Overview</h2>
 <p><strong>Purpose: </strong></p>
 <p>The primary parameter presented in the “Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries” publications is the population intervention effect (PIE), the change in mean population Z-score if a exposure is shifted to the lowest-risk level, which combines the increase of risk associated with an exposure with the prevalence of the exposure in the population. This page of the supporting information presents plots for pooled relative risks (RR) and average treatment effects (ATE) for each level of each exposure. Relative risk are reported for binary CGF outcomes (stunting, wasting, underweight, severe stunting, severe wasting, and severe underweight) and ATEs are reported for continious Z-score outcomes.</p>
-<p><strong>Interpretation: </strong>
-<strong>Implications: </strong></p>
-</div>
-<div id="to-do" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> To do:</h2>
-<ul>
-<li>Add ATE plots</li>
-</ul>
-<div id="relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes" class="section level3" number="2.2.1">
-<h3><span class="header-section-number">2.2.1</span> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</h3>
+<p><strong>Interpretation: </strong></p>
+<p>The primary purpose of this page is to present the pooled point estimates and confidence intervals for all of the results summarized in the Extended Data Figure 2 heatmap, and to allow the reader to compare the levels of risk across categorical exposures. The population intervention effects and attributable fraction presented in the primary manuscript show the result when shifting the exposure distribution to the low-risk reference levels, but the results presented here allow for comparing other exposure levels, like food secure versus moderately food insecure.</p>
+<p><strong>Implications: </strong></p>
+<p>The strong risk factors identified through the use of Population Attributable Factors (Extended Data Figure 6) were almost always the strongest risk factors when examining average treatment effects and relative risks and . The</p>
+<div id="relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</h3>
 <p>Plots are grouped and titles by exposure, and each panel of grouped plots visualizez the relative risk between levels of the exposure and different age-specific growth failure outcomes.</p>
-<p><img src="figures/risk-factor/RR-plots/fig-RR-sex.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-birthlen.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-birthwt.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-cleanck.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-earlybf.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-fage.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-feducyrs.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-fhtcm.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-gagebrth.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-hdlvry.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-hfoodsec.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-hhwealth_quart.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-impfloor.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-impsan.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-mage.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-mbmi.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-meducyrs.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-mhtcm.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-mwtkg.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-nchldlt5.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-nhh.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-nrooms.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-parity.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-perdiar6.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-perdiar24.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-predexfd6.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-rain_quartile.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-safeh20.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-single.png" width="2100" /><img src="figures/risk-factor/RR-plots/fig-RR-vagbrth.png" width="2100" /></p>
 
 </div>
 </div>
