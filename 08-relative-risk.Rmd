@@ -31,6 +31,7 @@ __Implications: __
 ## To do:
 
 - Add ATE plots
+- Debug plots
 
 
 ### Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes
