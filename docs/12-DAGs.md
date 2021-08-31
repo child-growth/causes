@@ -24,11 +24,10 @@ __Implications: __
 
 
 ```
-## Warning in file.copy(from = "/home/andrew.mertens/ki-
-## longitudinal-manuscripts/figures/dags/", : problem copying
-## \home\andrew.mertens\ki-longitudinal-manuscripts\figures\dags to C:
-## \Users\andre\Documents\HBGDki\causes\figures\dags\dags: No such file or
-## directory
+## Warning in file.copy(from = "/home/andrew.mertens/ki-longitudinal-manuscripts/
+## figures/dags/", : problem copying /home/andrew.mertens/ki-longitudinal-
+## manuscripts/figures/dags to /home/sdjajadi/causes/figures/dags/dags: Permission
+## denied
 ```
 
 ```
