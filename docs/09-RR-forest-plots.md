@@ -39,7 +39,7 @@ __Implications: __
 
 
 
-#### Outcome: Stunting prev. Exposure: sex Age: 24 months 
+### Outcome: Stunting prev. Exposure: sex Age: 24 months 
 ,<img src="09-RR-forest-plots_files/figure-html/unnamed-chunk-1-1.png" width="672" />
 
 

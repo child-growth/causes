@@ -54,7 +54,7 @@ i<-1
 for(i in 1:1){
 #for(i in 1:length(d[[4]])){
   
-    cat(paste0("\n#### Outcome: ",d$outcome_variable[1]," Exposure: ", d$intervention_variable[1], " Age: ",  d$agecat[1]),"\n,")
+    cat(paste0("\n### Outcome: ",d$outcome_variable[1]," Exposure: ", d$intervention_variable[1], " Age: ",  d$agecat[1]),"\n,")
   
   print(d$plot[i][[1]])
 }

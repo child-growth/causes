@@ -25,8 +25,8 @@ primary-spline-figures---single-spline-fit-to-all-the-data
 primary-spline-figures---splines-fit-through-meta-analyses-of-monthly-means-of-z-scores
 rf_splines
 overview-6
-secondary-spline-figures---laz-stratified-by-levels-of-exposures
-secondary-spline-figures---wlz-stratified-by-levels-of-exposures
+secondary-spline-figures---haz-stratified-by-levels-of-exposures
+secondary-spline-figures---whz-stratified-by-levels-of-exposures
 heatmaps
 overview-7
 heatmap-of-significance-of-estimates-region-stratified
