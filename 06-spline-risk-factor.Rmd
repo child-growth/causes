@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source(paste0(here::here(), "/0-config.R"))
 ```
 
-### Secondary spline figures  - LAZ stratified by levels of exposures
+### Secondary spline figures  - HAZ stratified by levels of exposures
 
 ```{r, echo = FALSE}
 
@@ -62,7 +62,7 @@ include_graphics(paste0(fig_dir, "/risk-factor/spline-plots/haz-vagbrth-spline.p
 
 ```
 
-### Secondary spline figures  - WLZ stratified by levels of exposures
+### Secondary spline figures  - WHZ stratified by levels of exposures
 
 ```{r, echo = FALSE}
 
