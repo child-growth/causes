@@ -56,3 +56,5 @@ comparisons-of-associations-between-early-growth-failure-and-mortality-and-serio
 dags
 overview-12
 example-dag
+population
+figure
