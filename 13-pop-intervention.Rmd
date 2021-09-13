@@ -1,0 +1,24 @@
+# Population intervention effects on weight-for-age Z-scores {#population}
+
+---
+output:
+  pdf_document:
+    keep_tex: yes
+fontfamily: mathpazo
+fontsize: 9pt
+---
+
+\raggedright
+
+
+```{r setup_mort, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+source(paste0(here::here(), "/0-config.R"))
+```
+
+### Figure
+
+```{r, echo = FALSE}
+include_graphics(paste0(fig_dir, "/risk-factor/fig-PAR-waz.png"))
+```
