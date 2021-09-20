@@ -24,13 +24,7 @@ __Implications: __
 
 
 ```
-## Warning in file.copy(from = "/home/andrew.mertens/ki-longitudinal-manuscripts/
-## figures/dags/", : problem reading directory /home/andrew.mertens/ki-
-## longitudinal-manuscripts/figures/dags: Permission denied
-```
-
-```
-## [1] FALSE
+## [1] TRUE
 ```
 
 <img src="figures/dags/dags/cc-example-dag.png" width="1500" />

@@ -30,7 +30,7 @@ The primary purpose of this page is to present the pooled point estimates and co
 
 __Implications: __
 
-The strong risk factors identified through the use of Population Attributable Factors (Extended Data Figure 6) were almost always the strongest risk factors when examining average treatment effects and relative risks and . The 
+The strong risk factors identified through the use of Population Attributable Factors (Extended Data Figure 6) were almost always the strongest risk factors when examining average treatment effects and relative risks across different age categories and outcomes.
 
 
 
