@@ -316,8 +316,7 @@ expanded$A[expanded$A == 'earlybf'] <- "Breastfed hour after birth"
 
 
 df = aggregate(B ~ A, expanded, list)
-View(df)
-
+kable(df)
 
 
 

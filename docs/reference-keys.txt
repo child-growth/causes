@@ -58,3 +58,4 @@ overview-12
 example-dag
 population
 figure
+table-of-adjustment-covariates
