@@ -28,7 +28,7 @@ __Implications: __
 
 ```{r, echo = FALSE, message=F}
 
-file.copy(from="/home/andrew.mertens/ki-longitudinal-manuscripts/figures/dags/", 
+file.copy(from="/home/sdjajadi/ki-longitudinal-manuscripts/figures/dags/", 
           to=paste0(here::here(), "/figures/dags/"), overwrite=TRUE, recursive=TRUE)
 include_graphics(paste0(fig_dir,"dags/dags/cc-example-dag.png"))
 
@@ -91,12 +91,6 @@ adjustment_sets <- list(
          "W_nrooms","W_nhh","W_nchldlt5",
          "brthmon",
          "trth2o","cleanck","impfloor","impsan","safeh20"), 
-  fage_rf=c("arm","W_mage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
-         "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
-         "single",
-         "W_nrooms","W_nhh","W_nchldlt5",
-         "brthmon",
-         "trth2o","cleanck","impfloor","impsan","safeh20"),     
   
   mhtcm=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
           "W_fhtcm",
@@ -128,12 +122,7 @@ adjustment_sets <- list(
           "single",
           "W_nrooms",
           "trth2o","cleanck","impfloor","impsan","safeh20"), 
-  fhtcm_rf=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
-          "W_mhtcm","W_mwtkg","W_bmi",
-          "single",
-          "W_nrooms",
-          "trth2o","cleanck","impfloor","impsan","safeh20"), 
-  
+
   nrooms=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
            "single",
@@ -277,47 +266,48 @@ adjustment_sets <- list(
 )
 
 var_names = names(adjustment_sets)
-expanded = do.call(rbind, Map(data.frame, A=var_names, B=adjustment_sets))
+cov_df = do.call(rbind, Map(data.frame, Exposure=var_names, "Potential adjustment covariates"=adjustment_sets, check.names=FALSE))
+cov_df$`Potential adjustment covariates` = gsub('W_', '', cov_df$`Potential adjustment covariates`)
 
-expanded$A[expanded$A == 'gagebrth'] <- 'Gestational age at birth'
-expanded$A[expanded$A == 'birthwt'] <-  'Birthweight (kg)'
-expanded$A[expanded$A == 'birthlen'] <- 'Birth length (cm)'
-expanded$A[expanded$A == 'vagbrth'] <- 'Vaginal birth'
-expanded$A[expanded$A == 'hdlvry'] <- 'Child delivered at home'
-expanded$A[expanded$A == 'mage'] <- "Mother's age" 
-expanded$A[expanded$A == 'fage'] <- "Father's age"
-# expanded$A[expanded$A == 'fage_rf'] <- ''
-expanded$A[expanded$A == 'mhtcm'] <- "Mother's height"
-expanded$A[expanded$A == 'mwtkg'] <- "Mother's weight"
-expanded$A[expanded$A == 'mbmi'] <- "Mother's BMI"
-expanded$A[expanded$A == 'month'] <- "Month of measurement"
-expanded$A[expanded$A == 'single'] <- 'Single parent'
-expanded$A[expanded$A == 'fhtcm'] <- "Father's height"
-# expanded$A[expanded$A == 'fhtcm_rf'] <- ''
-expanded$A[expanded$A == 'nrooms'] <- "# of rooms in HH"
-expanded$A[expanded$A == 'nhh'] <- "# of people in HH" 
-expanded$A[expanded$A == 'nchldlt5'] <- '# of children <5 in HH'
-expanded$A[expanded$A == 'hhwealth_quart'] <- 'HH wealth'
-expanded$A[expanded$A == 'parity'] <- "Birth order" 
-expanded$A[expanded$A == 'meducyrs'] <- "Mother's education" 
-expanded$A[expanded$A == 'feducyrs'] <- "Father's education"
-expanded$A[expanded$A == 'hfoodsec'] <- "HH food security"
-expanded$A[expanded$A == 'anywast06'] <- "Any wasting  <6 mo." 
-expanded$A[expanded$A == 'pers_wast'] <- "Persistent wasting  <6 mo." 
-expanded$A[expanded$A == 'trth2o'] <- "Treats drinking water" 
-expanded$A[expanded$A == 'cleanck'] <- "Clean cooking fuel usage" 
-expanded$A[expanded$A == 'impfloor'] <- "Improved floor" 
-expanded$A[expanded$A == 'impsan'] <- "Improved sanitation" 
-expanded$A[expanded$A == 'safeh20'] <- "Safe water source" 
-expanded$A[expanded$A == 'perdiar6'] <- "Diarrhea <6 mo. (% days)" 
-expanded$A[expanded$A == 'perdiar24'] <- "Diarrhea <24 mo.  (% days)" 
-expanded$A[expanded$A == 'predexfd6'] <- "Excl/Pred breastfed <6mo."
-expanded$A[expanded$A == 'earlybf'] <- "Breastfed hour after birth" 
+cov_df[cov_df == 'gagebrth'] <- 'Gestational age at birth'
+cov_df[cov_df == 'birthwt'] <-  'Birthweight (kg)'
+cov_df[cov_df == 'birthlen'] <- 'Birth length (cm)'
+cov_df[cov_df == 'vagbrth'] <- 'Vaginal birth'
+cov_df[cov_df == 'hdlvry'] <- 'Child delivered at home'
+cov_df[cov_df == 'mage'] <- "Mother's age" 
+cov_df[cov_df == 'fage'] <- "Father's age"
+cov_df[cov_df == 'mhtcm'] <- "Mother's height"
+cov_df[cov_df == 'mwtkg'] <- "Mother's weight"
+cov_df[cov_df == 'mbmi'] <- "Mother's BMI"
+cov_df[cov_df == 'month'] <- "Month of measurement"
+cov_df[cov_df == 'single'] <- 'Single parent'
+cov_df[cov_df == 'fhtcm'] <- "Father's height"
+cov_df[cov_df == 'nrooms'] <- "# of rooms in HH"
+cov_df[cov_df == 'nhh'] <- "# of people in HH" 
+cov_df[cov_df == 'nchldlt5'] <- '# of children <5 in HH'
+cov_df[cov_df == 'hhwealth_quart'] <- 'HH wealth'
+cov_df[cov_df == 'parity'] <- "Birth order" 
+cov_df[cov_df == 'meducyrs'] <- "Mother's education" 
+cov_df[cov_df == 'feducyrs'] <- "Father's education"
+cov_df[cov_df == 'hfoodsec'] <- "HH food security"
+cov_df[cov_df == 'anywast06'] <- "Any wasting  <6 mo." 
+cov_df[cov_df == 'pers_wast'] <- "Persistent wasting  <6 mo." 
+cov_df[cov_df == 'trth2o'] <- "Treats drinking water" 
+cov_df[cov_df == 'cleanck'] <- "Clean cooking fuel usage" 
+cov_df[cov_df == 'impfloor'] <- "Improved floor" 
+cov_df[cov_df == 'impsan'] <- "Improved sanitation" 
+cov_df[cov_df == 'safeh20'] <- "Safe water source" 
+cov_df[cov_df == 'perdiar6'] <- "Diarrhea <6 mo. (% days)" 
+cov_df[cov_df == 'perdiar24'] <- "Diarrhea <24 mo.  (% days)" 
+cov_df[cov_df == 'predexfd6'] <- "Excl/Pred breastfed <6mo."
+cov_df[cov_df == 'earlybf'] <- "Breastfed hour after birth" 
+cov_df[cov_df == 'sex'] <- "Child sex" 
+cov_df[cov_df == 'arm'] <- "Treatment arm" 
+cov_df[cov_df == 'brthmon'] <- "Month of Birth" 
+cov_df[cov_df == 'bmi'] <- "BMI" 
 
-
-df = aggregate(B ~ A, expanded, list)
+df = aggregate(`Potential adjustment covariates` ~ Exposure, cov_df, list)
 kable(df)
-
 
 
 ```
