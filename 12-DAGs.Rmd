@@ -34,3 +34,291 @@ include_graphics(paste0(fig_dir,"dags/dags/cc-example-dag.png"))
 
 ```
 
+## Table of Adjustment Covariates
+
+```{r, echo = FALSE, message=F}
+
+
+adjustment_sets <- list( 
+  
+  gagebrth=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "brthmon","W_parity",
+             "trth2o","cleanck","impfloor","impsan","safeh20"),         
+  
+  birthwt=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+            "vagbrth","hdlvry",
+            "single",
+            "W_nrooms","W_nhh","W_nchldlt5",
+            "brthmon","W_parity",
+            "trth2o","cleanck","impfloor","impsan","safeh20"),   
+  
+  birthlen=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "vagbrth","hdlvry",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "brthmon","W_parity",
+             "trth2o","cleanck","impfloor","impsan","safeh20"),   
+  
+  vagbrth=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+            "hdlvry",
+            "single",
+            "W_nrooms","W_nhh","W_nchldlt5",
+            "brthmon","W_parity",
+            "trth2o","cleanck","impfloor","impsan","safeh20"),     
+  
+  hdlvry=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+           "single",
+           "W_nrooms","W_nhh","W_nchldlt5",
+           "brthmon","W_parity",
+           "trth2o","cleanck","impfloor","impsan","safeh20"),      
+  
+  mage=c("arm","W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+         "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+         "single",
+         "W_nrooms","W_nhh","W_nchldlt5",
+         "trth2o","cleanck","impfloor","impsan","safeh20"),   
+  
+  fage=c("arm","W_mage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+         "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+         "single",
+         "W_nrooms","W_nhh","W_nchldlt5",
+         "brthmon",
+         "trth2o","cleanck","impfloor","impsan","safeh20"), 
+  fage_rf=c("arm","W_mage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+         "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+         "single",
+         "W_nrooms","W_nhh","W_nchldlt5",
+         "brthmon",
+         "trth2o","cleanck","impfloor","impsan","safeh20"),     
+  
+  mhtcm=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+          "W_fhtcm",
+          "single",
+          "W_nrooms",
+          "trth2o","cleanck","impfloor","impsan","safeh20"),    
+  
+  mwtkg=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+          "W_fhtcm",
+          "single",
+          "W_nrooms","W_nhh","W_nchldlt5",
+          "brthmon","W_parity",
+          "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  mbmi=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+         "W_fhtcm",
+         "single",
+         "W_nrooms","W_nhh","W_nchldlt5",
+         "brthmon","W_parity",
+         "trth2o","cleanck","impfloor","impsan","safeh20"),      
+  
+  single=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+           "W_nrooms","W_nhh","W_nchldlt5",
+           "trth2o","cleanck","impfloor","impsan","safeh20"),    
+  
+  fhtcm=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+          "W_mhtcm","W_mwtkg","W_bmi",
+          "single",
+          "W_nrooms",
+          "trth2o","cleanck","impfloor","impsan","safeh20"), 
+  fhtcm_rf=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+          "W_mhtcm","W_mwtkg","W_bmi",
+          "single",
+          "W_nrooms",
+          "trth2o","cleanck","impfloor","impsan","safeh20"), 
+  
+  nrooms=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+           "single",
+           "W_nhh","W_nchldlt5",
+           "W_parity",
+           "trth2o","cleanck","impfloor","impsan","safeh20"),    
+  
+  nhh=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+        "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+        "single",
+        "W_nrooms",
+        "W_parity",
+        "trth2o","cleanck","impfloor","impsan","safeh20"),    
+  
+  nchldlt5=c("arm", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "single",
+             "W_nrooms",
+             "W_parity",
+             "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  hhwealth_quart=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", 
+                   "W_gagebrth","W_birthwt","W_birthlen",
+                   "single","W_nhh","W_nchldlt5",
+                   "W_parity"), 
+  
+  parity=c("arm","W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+           "vagbrth","hdlvry",
+           "single",
+           "W_nrooms",
+           "trth2o","cleanck","impfloor","impsan","safeh20"),   
+  
+  meducyrs=c("arm", "W_mage", "W_fage", "feducyrs", "hhwealth_quart",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "W_gagebrth","W_birthwt","W_birthlen",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  feducyrs=c("arm", "W_mage", "W_fage", "meducyrs",  "hhwealth_quart", 
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "W_gagebrth","W_birthwt","W_birthlen",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "trth2o","cleanck","impfloor","impsan","safeh20"), 
+  
+  hfoodsec=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart",
+             "vagbrth","hdlvry",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "brthmon","W_parity",
+             "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  anywast06=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+              "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+              "vagbrth","hdlvry",
+              "single",
+              "W_nrooms","W_nhh","W_nchldlt5",
+              "month","brthmon","W_parity",
+              "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  pers_wast=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+              "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+              "vagbrth","hdlvry",
+              "single",
+              "W_nrooms","W_nhh","W_nchldlt5",
+              "month","brthmon","W_parity",
+              "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  trth2o=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+           "single",
+           "W_nrooms","W_nhh","W_nchldlt5",
+           "brthmon","W_parity",
+           "cleanck","impfloor","impsan","safeh20"), 
+  
+  cleanck=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+            "single",
+            "W_nrooms","W_nhh","W_nchldlt5",
+            "W_parity",
+            "trth2o","impfloor","impsan","safeh20"), 
+  
+  impfloor=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "W_parity",
+             "trth2o","cleanck","impsan","safeh20"),  
+  
+  impsan=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+           "single",
+           "W_nrooms","W_nhh","W_nchldlt5",
+           "W_parity",
+           "trth2o","cleanck","impfloor","safeh20"), 
+  
+  safeh20=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+            "single",
+            "W_nrooms","W_nhh","W_nchldlt5",
+            "W_parity",
+            "trth2o","cleanck","impfloor","impsan"),
+  
+  perdiar6=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "vagbrth","hdlvry",
+             "W_gagebrth","W_birthwt","W_birthlen",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "month","brthmon","W_parity",
+             "trth2o","cleanck","impfloor","impsan","safeh20"), 
+  
+  perdiar24=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+              "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+              "vagbrth","hdlvry",
+              "W_gagebrth","W_birthwt","W_birthlen",
+              "single",
+              "W_nrooms","W_nhh","W_nchldlt5",
+              "month","brthmon","W_parity",
+              "trth2o","cleanck","impfloor","impsan","safeh20"), 
+  
+  predexfd6= c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+                "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+                "vagbrth","hdlvry",
+                "W_gagebrth","W_birthwt","W_birthlen",
+                "single",
+                "W_nrooms","W_nhh","W_nchldlt5",
+                "month","brthmon","W_parity",
+                "trth2o","cleanck","impfloor","impsan","safeh20"),
+  
+  earlybf=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+            "vagbrth","hdlvry",
+            "W_gagebrth","W_birthwt","W_birthlen",
+            "single",
+            "W_nrooms","W_nhh","W_nchldlt5",
+            "brthmon","W_parity",
+            "trth2o","cleanck","impfloor","impsan","safeh20")
+)
+
+var_names = names(adjustment_sets)
+expanded = do.call(rbind, Map(data.frame, A=var_names, B=adjustment_sets))
+
+expanded$A[expanded$A == 'gagebrth'] <- 'Gestational age at birth'
+expanded$A[expanded$A == 'birthwt'] <-  'Birthweight (kg)'
+expanded$A[expanded$A == 'birthlen'] <- 'Birth length (cm)'
+expanded$A[expanded$A == 'vagbrth'] <- 'Vaginal birth'
+expanded$A[expanded$A == 'hdlvry'] <- 'Child delivered at home'
+expanded$A[expanded$A == 'mage'] <- "Mother's age" 
+expanded$A[expanded$A == 'fage'] <- "Father's age"
+# expanded$A[expanded$A == 'fage_rf'] <- ''
+expanded$A[expanded$A == 'mhtcm'] <- "Mother's height"
+expanded$A[expanded$A == 'mwtkg'] <- "Mother's weight"
+expanded$A[expanded$A == 'mbmi'] <- "Mother's BMI"
+expanded$A[expanded$A == 'month'] <- "Month of measurement"
+expanded$A[expanded$A == 'single'] <- 'Single parent'
+expanded$A[expanded$A == 'fhtcm'] <- "Father's height"
+# expanded$A[expanded$A == 'fhtcm_rf'] <- ''
+expanded$A[expanded$A == 'nrooms'] <- "# of rooms in HH"
+expanded$A[expanded$A == 'nhh'] <- "# of people in HH" 
+expanded$A[expanded$A == 'nchldlt5'] <- '# of children <5 in HH'
+expanded$A[expanded$A == 'hhwealth_quart'] <- 'HH wealth'
+expanded$A[expanded$A == 'parity'] <- "Birth order" 
+expanded$A[expanded$A == 'meducyrs'] <- "Mother's education" 
+expanded$A[expanded$A == 'feducyrs'] <- "Father's education"
+expanded$A[expanded$A == 'hfoodsec'] <- "HH food security"
+expanded$A[expanded$A == 'anywast06'] <- "Any wasting  <6 mo." 
+expanded$A[expanded$A == 'pers_wast'] <- "Persistent wasting  <6 mo." 
+expanded$A[expanded$A == 'trth2o'] <- "Treats drinking water" 
+expanded$A[expanded$A == 'cleanck'] <- "Clean cooking fuel usage" 
+expanded$A[expanded$A == 'impfloor'] <- "Improved floor" 
+expanded$A[expanded$A == 'impsan'] <- "Improved sanitation" 
+expanded$A[expanded$A == 'safeh20'] <- "Safe water source" 
+expanded$A[expanded$A == 'perdiar6'] <- "Diarrhea <6 mo. (% days)" 
+expanded$A[expanded$A == 'perdiar24'] <- "Diarrhea <24 mo.  (% days)" 
+expanded$A[expanded$A == 'predexfd6'] <- "Excl/Pred breastfed <6mo."
+expanded$A[expanded$A == 'earlybf'] <- "Breastfed hour after birth" 
+
+
+df = aggregate(B ~ A, expanded, list)
+View(df)
+
+
+
+
+```
