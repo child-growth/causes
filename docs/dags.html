@@ -24,7 +24,7 @@
 <meta name="author" content="Andrew Mertens et al." />
 
 
-<meta name="date" content="2021-09-11" />
+<meta name="date" content="2021-09-20" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -164,6 +164,7 @@
 <ul>
 <li class="chapter" data-level="13.1" data-path="dags.html"><a href="dags.html#overview-12"><i class="fa fa-check"></i><b>13.1</b> Overview</a></li>
 <li class="chapter" data-level="13.2" data-path="dags.html"><a href="dags.html#example-dag"><i class="fa fa-check"></i><b>13.2</b> Example DAG</a></li>
+<li class="chapter" data-level="13.3" data-path="dags.html"><a href="dags.html#table-of-adjustment-covariates"><i class="fa fa-check"></i><b>13.3</b> Table of Adjustment Covariates</a></li>
 </ul></li>
 <li class="chapter" data-level="14" data-path="population.html"><a href="population.html"><i class="fa fa-check"></i><b>14</b> Population intervention effects on weight-for-age Z-scores</a>
 <ul>
@@ -199,11 +200,149 @@
 </div>
 <div id="example-dag" class="section level2" number="13.2">
 <h2><span class="header-section-number">13.2</span> Example DAG</h2>
-<pre><code>## Warning in file.copy(from = &quot;/home/andrew.mertens/ki-longitudinal-manuscripts/
-## figures/dags/&quot;, : problem reading directory /home/andrew.mertens/ki-
-## longitudinal-manuscripts/figures/dags: Permission denied</code></pre>
-<pre><code>## [1] FALSE</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 <p><img src="figures/dags/dags/cc-example-dag.png" width="1500" /></p>
+</div>
+<div id="table-of-adjustment-covariates" class="section level2" number="13.3">
+<h2><span class="header-section-number">13.3</span> Table of Adjustment Covariates</h2>
+<table>
+<colgroup>
+<col width="3%" />
+<col width="96%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Exposure</th>
+<th align="left">Potential adjustment covariates</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"># of children &lt;5 in HH</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left"># of people in HH</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left"># of rooms in HH</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of people in HH , # of children &lt;5 in HH , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Any wasting &lt;6 mo.</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of measurement , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Birth length (cm)</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Birth order</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Single parent , # of rooms in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Birthweight (kg)</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Breastfed hour after birth</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Child delivered at home</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Clean cooking fuel usage</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH, Birth order , Treats drinking water , Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Diarrhea &lt;24 mo. (% days)</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of measurement , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Diarrhea &lt;6 mo. (% days)</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of measurement , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Excl/Pred breastfed &lt;6mo.</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of measurement , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Father’s age</td>
+<td align="left">Treatment arm , Mother’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Father’s education</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , HH wealth , Mother’s height , Mother’s weight , BMI , Father’s height , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Father’s height</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Single parent , # of rooms in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Gestational age at birth</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">HH food security</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , Vaginal birth , Child delivered at home , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">HH wealth</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of people in HH , # of children &lt;5 in HH , Birth order</td>
+</tr>
+<tr class="even">
+<td align="left">Improved floor</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Birth order , Treats drinking water , Clean cooking fuel usage, Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Improved sanitation</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Mother’s age</td>
+<td align="left">Treatment arm , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Mother’s BMI</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Mother’s education</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Father’s education , HH wealth , Mother’s height , Mother’s weight , BMI , Father’s height , Gestational age at birth, Birthweight (kg) , Birth length (cm) , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Mother’s height</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Father’s height , Single parent , # of rooms in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Mother’s weight</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Persistent wasting &lt;6 mo.</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Vaginal birth , Child delivered at home , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of measurement , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Safe water source</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation</td>
+</tr>
+<tr class="odd">
+<td align="left">Single parent</td>
+<td align="left">Treatment arm , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="even">
+<td align="left">Treats drinking water</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+<tr class="odd">
+<td align="left">Vaginal birth</td>
+<td align="left">Treatment arm , Child sex , Mother’s age , Father’s age , Mother’s education , Father’s education , HH wealth , HH food security , Mother’s height , Mother’s weight , BMI , Father’s height , Child delivered at home , Single parent , # of rooms in HH , # of people in HH , # of children &lt;5 in HH , Month of Birth , Birth order , Treats drinking water , Clean cooking fuel usage, Improved floor , Improved sanitation , Safe water source</td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
