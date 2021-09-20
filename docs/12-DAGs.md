@@ -24,14 +24,7 @@ __Implications: __
 
 
 ```
-## Warning in file.copy(from = "/home/andrew.mertens/ki-longitudinal-manuscripts/
-## figures/dags/", : problem copying /home/andrew.mertens/ki-longitudinal-
-## manuscripts/figures/dags to /home/sdjajadi/causes/figures/dags/dags: Permission
-## denied
-```
-
-```
-## [1] FALSE
+## [1] TRUE
 ```
 
 <img src="figures/dags/dags/cc-example-dag.png" width="1500" />
@@ -39,7 +32,7 @@ __Implications: __
 ## Table of Adjustment Covariates
 
 
-|A                          |B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|Exposure                   |Potential adjustment covariates                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:--------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |# of children <5 in HH     |Treatment arm           , Mother's age            , Father's age            , Mother's education      , Father's education      , HH wealth               , HH food security        , Mother's height         , Mother's weight         , BMI                     , Father's height         , Single parent           , # of rooms in HH        , Birth order             , Treats drinking water   , Clean cooking fuel usage, Improved floor          , Improved sanitation     , Safe water source                                                                                                                                                                                                                                                                     |
 |# of people in HH          |Treatment arm           , Mother's age            , Father's age            , Mother's education      , Father's education      , HH wealth               , HH food security        , Mother's height         , Mother's weight         , BMI                     , Father's height         , Single parent           , # of rooms in HH        , Birth order             , Treats drinking water   , Clean cooking fuel usage, Improved floor          , Improved sanitation     , Safe water source                                                                                                                                                                                                                                                                     |
