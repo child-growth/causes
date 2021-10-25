@@ -18,7 +18,7 @@ fontsize: 9pt
 
 __Purpose: __
 
-The primary parameter presented in the “Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries” publications is the population intervention effect (PIE), the change in mean population Z-score if a exposure is shifted to the lowest-risk level, which combines the increase of risk associated with an exposure with the prevalence of the exposure in the population. This page of the supporting information presents plots for pooled relative risks (RR) and average treatment effects (ATE) for each level of each exposure. Relative risk are reported for binary CGF outcomes (stunting, wasting, underweight, severe stunting, severe wasting, and severe underweight) and ATEs are reported for continious Z-score outcomes.
+The primary parameter presented in the “Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries” publications is the population intervention effect (PIE), the change in mean population Z-score if a exposure is shifted to the lowest-risk level, which combines the increase of risk associated with an exposure with the prevalence of the exposure in the population. This page of the supporting information presents plots for pooled relative risks (RR) and average treatment effects (ATE) for each level of each exposure. Relative risk are reported for binary CGF outcomes (stunting, wasting, underweight, severe stunting, severe wasting, and severe underweight) and ATEs are reported for continuous Z-score outcomes.
 
 __Interpretation: __
 
@@ -26,7 +26,7 @@ The primary purpose of this page is to present the pooled point estimates and co
 
 __Implications: __
 
-The strong risk factors identified through the use of Population Attributable Factors (Extended Data Figure 6) were almost always the strongest risk factors when examining average treatment effects and relative risks and . The 
+The strong risk factors identified through the use of Population Attributable Factors (Extended Data Figure 6) were almost always the strongest risk factors when examining average treatment effects and relative risks across different age categories and outcomes.
 
 
 

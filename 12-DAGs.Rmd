@@ -26,11 +26,11 @@ __Implications: __
 
 ## Example DAG 
 
-```{r, echo = FALSE, message=F}
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
 
-file.copy(from="/home/sdjajadi/ki-longitudinal-manuscripts/figures/dags/", 
+file.copy(from="~/ki-longitudinal-manuscripts/figures/dags/", 
           to=paste0(here::here(), "/figures/dags/"), overwrite=TRUE, recursive=TRUE)
-include_graphics(paste0(fig_dir,"dags/dags/cc-example-dag.png"))
+include_graphics(paste0(here::here(),"/figures/dags/dags/cc-example-dag.png"))
 
 ```
 
