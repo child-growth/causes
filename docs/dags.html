@@ -24,7 +24,7 @@
 <meta name="author" content="Andrew Mertens et al." />
 
 
-<meta name="date" content="2021-10-25" />
+<meta name="date" content="2021-10-31" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -194,9 +194,9 @@
 <h1><span class="header-section-number">Chapter 13</span> Directed Acyclic Diagrams (DAGs)</h1>
 <div id="overview-12" class="section level2" number="13.1">
 <h2><span class="header-section-number">13.1</span> Overview</h2>
-<p><strong>Purpose: </strong>
-<strong>Interpretation: </strong>
-<strong>Implications: </strong></p>
+<p><strong>Purpose: </strong> For each exposure, we used the directed acyclic graph (DAG) framework to identify potential confounders from the broader set of exposures used in the analysis. We did not adjust for characteristics that were assumed to be intermediate on the causal path between any exposure and the outcome, because while controlling for mediators may help adjust for unmeasured confounders in some conditions, it can also lead to collider bias. As DAG’s were hand-drawn and are complex for the large number of exposures, we show an example DAG here and then list all potential considered for each exposure in a table below.</p>
+<p><strong>Interpretation: </strong> The DAG below shows the set of adjusted-for exposures and unadjusted-for exposures for the estimated association between maternal weight and child growth faltering. Grey variables are on the causal pathway and are not adjusted for, while blue variables were considered potential confounders and adjusted for. Note collinear variables like maternal BMI are shown as on the causal pathway in this DAG, which may not be biologically accurate, but they were not adjusted for so are included with the potential mediators.</p>
+<p><strong>Implications: </strong> Given the exposures measured in each study, we attempted to maximally adjust for confounding without adjusting for mediators on the casual pathway, which would remove part of the effect of the exposure on the outcome. Confounders were not measured in every cohort, so there could be residual confounding in cohort-specific estimates, and actual DAGs will look different across cohort-specific estimates for each study.</p>
 </div>
 <div id="example-dag" class="section level2" number="13.2">
 <h2><span class="header-section-number">13.2</span> Example DAG</h2>

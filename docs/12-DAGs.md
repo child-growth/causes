@@ -15,9 +15,11 @@ fontsize: 9pt
 
 ## Overview
 
-__Purpose: __
-__Interpretation: __
-__Implications: __
+__Purpose: __ For each exposure, we used the directed acyclic graph (DAG) framework to identify potential confounders from the broader set of exposures used in the analysis. We did not adjust for characteristics that were assumed to be intermediate on the causal path between any exposure and the outcome, because while controlling for mediators may help adjust for unmeasured confounders in some conditions, it can also lead to collider bias. As DAG's were hand-drawn and are complex for the large number of exposures, we show an example DAG here and then list all potential considered for each exposure in a table below. 
+
+__Interpretation: __  The DAG below shows the set of adjusted-for exposures and unadjusted-for exposures for the estimated association between maternal weight and child growth faltering. Grey variables are on the causal pathway and are not adjusted for, while blue variables were considered potential confounders and adjusted for. Note collinear variables like maternal BMI are shown as on the causal pathway in this DAG, which may not be biologically accurate, but they were not adjusted for so are included with the potential mediators.
+
+__Implications: __ Given the exposures measured in each study, we attempted to maximally adjust for confounding without adjusting for mediators on the casual pathway, which would remove part of the effect of the exposure on the outcome. Confounders were not measured in every cohort, so there could be residual confounding in cohort-specific estimates, and actual DAGs will look different across cohort-specific estimates for each study. 
 
 
 ## Example DAG 

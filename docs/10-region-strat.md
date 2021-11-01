@@ -12,9 +12,13 @@ fontsize: 9pt
 
 ## Overview
 
-__Purpose: __
-__Interpretation: __
-__Implications: __
+
+
+
+
+__Purpose: __ Extended data figures 3-8 show age or regionally stratified plots of PIE of risk factors and child growth Z-scores. This page shows age and regionally stratified plots to allow comparisons of differences across regions in age-specific differences in associations between exposures and child growth faltering.
+__Interpretation: __ There are regional variations in the rank-ordering of exposures by age and the magnitude of associations, but no unexpected findings obscured by pooling age-specific estimates over regions. Variations in estimates arise from different study populations, different numbers of studies measuring exposures in each region and at each age, and heterogeneity in the study-specific estimates underlying the random-effects pooled estimates.
+__Implications: __ We did not identify important regionally-specific patterns in age-specific exposure-growth faltering associations that were missed by using regionally-pooled estimates in the supplemental figures.
 
 
 

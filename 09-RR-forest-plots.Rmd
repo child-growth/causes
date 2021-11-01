@@ -13,9 +13,11 @@ fontsize: 9pt
 
 ## Overview
 
-__Purpose: __
-__Interpretation: __
-__Implications: __
+__Purpose: __ These plots show all results estimated in this study. Cohort-specific results were estimated for each combination of risk factor, outcome, and age category, and then pooled with random- and fixed-effects meta-analysis models.
+__Interpretation: __ Each plot shows all cohort-specific estimates for each isk factor, outcome,  age category, and exposure level in the same style as Extended Data Figure 1. Cohort-specific estimates are plotted on each row, comparing the risk of an exposure level to the reference level.  Below the solid horizontal line are region-specific pooled measures of association, pooled using random-effects models. Below the dashed line are overall pooled measures of association, comparing pooling using random or fixed effects models. 
+__Implications: __ The plots show all cohort-specific estimates underlying the primary plots in the manuscript as well as the pooled random- and fixed-effects estimates.
+
+
 
 
 (Interactive seaching and selecting of forest plots in development. Example plot shown here for the moment.)

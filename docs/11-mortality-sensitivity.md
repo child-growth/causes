@@ -8,6 +8,10 @@ fontfamily: mathpazo
 fontsize: 9pt
 ---
 
+__Purpose: __
+__Interpretation: __
+__Implications: __
+
 \raggedright
 
 
