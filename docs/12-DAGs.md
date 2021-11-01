@@ -22,7 +22,7 @@ __Interpretation: __  The DAG below shows the set of adjusted-for exposures and 
 __Implications: __ Given the exposures measured in each study, we attempted to maximally adjust for confounding without adjusting for mediators on the casual pathway, which would remove part of the effect of the exposure on the outcome. Confounders were not measured in every cohort, so there could be residual confounding in cohort-specific estimates, and actual DAGs will look different across cohort-specific estimates for each study. 
 
 
-## Example DAG 
+## Simplified example DAG:
 
 
 ```
@@ -30,6 +30,15 @@ __Implications: __ Given the exposures measured in each study, we attempted to m
 ```
 
 <img src="/home/andrew.mertens/causes/figures/dags/dags/cc-example-dag.png" width="1500" />
+
+## DAG used: Association between maternal weight and child growth faltering
+
+
+```
+## [1] TRUE
+```
+
+<img src="/home/andrew.mertens/causes/figures/dags/dags/mwtkg.png" width="1500" />
 
 ## Table of Adjustment Covariates
 
