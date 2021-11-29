@@ -24,11 +24,11 @@ __Implications: __ Given the exposures measured in each study, we attempted to m
 
 ## Simplified example DAG:
 
-<img src="/home/andrew.mertens/causes/figures/dags/dags/cc-example-dag.png" width="1500" />
+<img src="/home/esthjung/esthjung/causes/figures/dags/dags/cc-example-dag.png" width="1500" />
 
 ## DAG used: Association between maternal weight and child growth faltering
 
-<img src="/home/andrew.mertens/causes/figures/dags/dags/mwtkg.png" width="1500" />
+<img src="/home/esthjung/esthjung/causes/figures/dags/dags/mwtkg.png" width="1500" />
 
 ## Table of Adjustment Covariates
 
