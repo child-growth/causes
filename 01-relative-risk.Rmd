@@ -40,9 +40,6 @@ Plots are grouped and titles by exposure, and each panel of grouped plots visual
 
 ```{r, echo = FALSE}
 try(include_graphics(paste0(fig_dir, "risk-factor/RR-plots/fig-RR-sex.png")))
-
-
-
 try(include_graphics(paste0(fig_dir, "risk-factor/RR-plots/fig-RR-birthlen.png")))
 try(include_graphics(paste0(fig_dir, "risk-factor/RR-plots/fig-RR-birthwt.png")))
 try(include_graphics(paste0(fig_dir, "risk-factor/RR-plots/fig-RR-cleanck.png")))
