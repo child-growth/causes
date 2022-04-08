@@ -58,3 +58,4 @@ dag-used-association-between-maternal-weight-and-child-growth-faltering
 table-of-adjustment-covariates
 population
 figure
+r-setup_splines-includefalse-libraryknitr-knitropts_chunksetecho-true-sourcepaste0herehere-0-config.r
