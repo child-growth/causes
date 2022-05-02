@@ -15,4 +15,4 @@ __Interpretation: __ Each plot shows all cohort-specific estimates for each isk 
 __Implications: __ The plots show all cohort-specific estimates underlying the primary plots in the manuscript as well as the pooled random- and fixed-effects estimates.
 
 
-<iframe src="https://anmolseth.shinyapps.io/RR-forest-plots/?showcase=0" width="672" height="800px" data-external="1"></iframe>
+<iframe src="https://anmolseth.shinyapps.io/RR-forest-plots/?showcase=0" width="672" height="800px"></iframe>

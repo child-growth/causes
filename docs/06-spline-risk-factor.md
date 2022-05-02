@@ -18,4 +18,4 @@ __Implications: __
 
 
 
-<iframe src="https://anmolseth.shinyapps.io/spline-risk-factors/?showcase=0" width="672" height="800px" data-external="1"></iframe>
+<iframe src="https://anmolseth.shinyapps.io/spline-risk-factors/?showcase=0" width="672" height="800px"></iframe>
