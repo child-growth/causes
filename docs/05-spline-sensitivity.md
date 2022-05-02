@@ -25,7 +25,7 @@ __Implications: __
 
 ### Spline figures - meta-analysis of cohort specific splines, different parameters
 
-Centered at age = 1 says and with 6 degrees of freedom 
+Centered at age = 1 days and with 6 degrees of freedom 
 
 <img src="figures//risk-factor/spline_grid_sens.png" width="1500" />
 

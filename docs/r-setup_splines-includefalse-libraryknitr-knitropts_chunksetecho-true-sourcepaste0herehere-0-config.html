@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 8 {r setup_splines, include=FALSE} # library(knitr) # knitr::opts_chunk$set(echo = TRUE) # source(paste0(here::here(), "/0-config.R")) # | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries</title>
+  <meta name="description" content="This is supplementary information to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 8 {r setup_splines, include=FALSE} # library(knitr) # knitr::opts_chunk$set(echo = TRUE) # source(paste0(here::here(), "/0-config.R")) # | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is supplementary information to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 8 {r setup_splines, include=FALSE} # library(knitr) # knitr::opts_chunk$set(echo = TRUE) # source(paste0(here::here(), "/0-config.R")) # | Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  
+  <meta name="twitter:description" content="This is supplementary information to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries" />
+  
+
+<meta name="author" content="Andrew Mertens et al." />
+
+
+<meta name="date" content="2022-02-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="rf_splines.html"/>
+<link rel="next" href="heatmaps.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Causes and Consequences Supplementary Information</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
+<li class="chapter" data-level="2" data-path="RR.html"><a href="RR.html"><i class="fa fa-check"></i><b>2</b> Relative risk plots</a><ul>
+<li class="chapter" data-level="2.1" data-path="RR.html"><a href="RR.html#overview-1"><i class="fa fa-check"></i><b>2.1</b> Overview</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="RR.html"><a href="RR.html#relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes"><i class="fa fa-check"></i><b>2.1.1</b> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="velocity.html"><a href="velocity.html"><i class="fa fa-check"></i><b>3</b> Growth velocity</a><ul>
+<li class="chapter" data-level="3.1" data-path="velocity.html"><a href="velocity.html#overview-2"><i class="fa fa-check"></i><b>3.1</b> Overview</a></li>
+<li class="chapter" data-level="3.2" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-length-for-age-z-scores-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.2</b> Age-stratified population attributable differences in change in length-for-age Z-scores over 3-month age bands.</a></li>
+<li class="chapter" data-level="3.3" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-weight-for-age-z-scores-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.3</b> Age-stratified population attributable differences in change in weight-for-age Z-scores over 3-month age bands.</a></li>
+<li class="chapter" data-level="3.4" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-child-length-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.4</b> Age-stratified population attributable differences in change in child length over 3-month age bands.</a></li>
+<li class="chapter" data-level="3.5" data-path="velocity.html"><a href="velocity.html#age-stratified-population-attributable-differences-in-change-in-child-weight-over-3-month-age-bands."><i class="fa fa-check"></i><b>3.5</b> Age-stratified population attributable differences in change in child weight over 3-month age bands.</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="fixed-effects.html"><a href="fixed-effects.html"><i class="fa fa-check"></i><b>4</b> Sensitivity analysis using fixed effects</a><ul>
+<li class="chapter" data-level="4.1" data-path="fixed-effects.html"><a href="fixed-effects.html#overview-3"><i class="fa fa-check"></i><b>4.1</b> Overview</a></li>
+<li class="chapter" data-level="4.2" data-path="fixed-effects.html"><a href="fixed-effects.html#primary-manuscript-figures-recreated-with-estimates-pooled-using-fixed-effects"><i class="fa fa-check"></i><b>4.2</b> Primary manuscript figures recreated with estimates pooled using fixed effects</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="unadjusted.html"><a href="unadjusted.html"><i class="fa fa-check"></i><b>5</b> Unadjusted Population Attributable Difference plots</a><ul>
+<li class="chapter" data-level="5.1" data-path="unadjusted.html"><a href="unadjusted.html#overview-4"><i class="fa fa-check"></i><b>5.1</b> Overview</a></li>
+<li class="chapter" data-level="5.2" data-path="unadjusted.html"><a href="unadjusted.html#age-stratified-population-attributable-differences-in-length-for-age-z-scores-pooled-using-fixed-effects-models."><i class="fa fa-check"></i><b>5.2</b> Age-stratified population attributable differences in length-for-age Z-scores, pooled using fixed effects models.</a></li>
+<li class="chapter" data-level="5.3" data-path="unadjusted.html"><a href="unadjusted.html#age-stratified-population-attributable-differences-in-weight-for-length-z-scores-pooled-using-fixed-effects-models."><i class="fa fa-check"></i><b>5.3</b> Age-stratified population attributable differences in weight-for-length Z-scores, pooled using fixed effects models.</a></li>
+<li class="chapter" data-level="5.4" data-path="unadjusted.html"><a href="unadjusted.html#region-stratified-population-attributable-differences-in-length-for-age-z-scores-pooled-using-fixed-effects-models."><i class="fa fa-check"></i><b>5.4</b> Region-stratified population attributable differences in length-for-age Z-scores, pooled using fixed effects models.</a></li>
+<li class="chapter" data-level="5.5" data-path="unadjusted.html"><a href="unadjusted.html#region-stratified-population-attributable-differences-in-weight-for-length-z-scores-pooled-using-fixed-effects-models."><i class="fa fa-check"></i><b>5.5</b> Region-stratified population attributable differences in weight-for-length Z-scores, pooled using fixed effects models.</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="sens_splines.html"><a href="sens_splines.html"><i class="fa fa-check"></i><b>6</b> Sensitivity spline plots</a><ul>
+<li class="chapter" data-level="6.1" data-path="sens_splines.html"><a href="sens_splines.html#overview-5"><i class="fa fa-check"></i><b>6.1</b> Overview</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="sens_splines.html"><a href="sens_splines.html#primary-spline-figures---meta-analysis-of-cohort-specific-splines"><i class="fa fa-check"></i><b>6.1.1</b> Primary spline figures - meta-analysis of cohort specific splines</a></li>
+<li class="chapter" data-level="6.1.2" data-path="sens_splines.html"><a href="sens_splines.html#spline-figures---meta-analysis-of-cohort-specific-splines-different-parameters"><i class="fa fa-check"></i><b>6.1.2</b> Spline figures - meta-analysis of cohort specific splines, different parameters</a></li>
+<li class="chapter" data-level="6.1.3" data-path="sens_splines.html"><a href="sens_splines.html#primary-spline-figures---single-spline-fit-to-all-the-data"><i class="fa fa-check"></i><b>6.1.3</b> Primary spline figures - Single spline fit to all the data</a></li>
+<li class="chapter" data-level="6.1.4" data-path="sens_splines.html"><a href="sens_splines.html#primary-spline-figures---splines-fit-through-meta-analyses-of-monthly-means-of-z-scores"><i class="fa fa-check"></i><b>6.1.4</b> Primary spline figures - splines fit through meta-analyses of monthly means of Z-scores</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="rf_splines.html"><a href="rf_splines.html"><i class="fa fa-check"></i><b>7</b> spline-plots - all exposures</a><ul>
+<li class="chapter" data-level="7.1" data-path="rf_splines.html"><a href="rf_splines.html#overview-6"><i class="fa fa-check"></i><b>7.1</b> Overview</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="r-setup_splines-includefalse-libraryknitr-knitropts_chunksetecho-true-sourcepaste0herehere-0-config.html"><a href="r-setup_splines-includefalse-libraryknitr-knitropts_chunksetecho-true-sourcepaste0herehere-0-config.html"><i class="fa fa-check"></i><b>8</b> <code>{r setup_splines, include=FALSE} # library(knitr) # knitr::opts_chunk$set(echo = TRUE) # source(paste0(here::here(), "/0-config.R")) #</code></a></li>
+<li class="chapter" data-level="9" data-path="heatmaps.html"><a href="heatmaps.html"><i class="fa fa-check"></i><b>9</b> Heatmaps</a><ul>
+<li class="chapter" data-level="9.1" data-path="heatmaps.html"><a href="heatmaps.html#overview-7"><i class="fa fa-check"></i><b>9.1</b> Overview</a></li>
+<li class="chapter" data-level="9.2" data-path="heatmaps.html"><a href="heatmaps.html#heatmap-of-significance-of-estimates-region-stratified"><i class="fa fa-check"></i><b>9.2</b> Heatmap of significance of estimates, region stratified</a></li>
+<li class="chapter" data-level="9.3" data-path="heatmaps.html"><a href="heatmaps.html#heatmap-of-significance-of-estimates-pooled-using-fixed-effects"><i class="fa fa-check"></i><b>9.3</b> Heatmap of significance of estimates pooled using fixed effects</a></li>
+<li class="chapter" data-level="9.4" data-path="heatmaps.html"><a href="heatmaps.html#heatmap-of-significance-of-estimate-unadjusted"><i class="fa fa-check"></i><b>9.4</b> Heatmap of significance of estimate, unadjusted</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="no-PROBIT.html"><a href="no-PROBIT.html"><i class="fa fa-check"></i><b>10</b> Sensitivity to dropping PROBIT trial</a><ul>
+<li class="chapter" data-level="10.1" data-path="no-PROBIT.html"><a href="no-PROBIT.html#overview-8"><i class="fa fa-check"></i><b>10.1</b> Overview</a></li>
+<li class="chapter" data-level="10.2" data-path="no-PROBIT.html"><a href="no-PROBIT.html#comparison-of-attributable-differences-estimated-with-and-without-the-probit-trial"><i class="fa fa-check"></i><b>10.2</b> Comparison of attributable differences estimated with and without the PROBIT trial</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="RR-forest.html"><a href="RR-forest.html"><i class="fa fa-check"></i><b>11</b> Forest plots of relative risk</a></li>
+<li class="chapter" data-level="12" data-path="RegionStrat.html"><a href="RegionStrat.html"><i class="fa fa-check"></i><b>12</b> Regionally-stratified plots</a><ul>
+<li class="chapter" data-level="12.1" data-path="RegionStrat.html"><a href="RegionStrat.html#overview-9"><i class="fa fa-check"></i><b>12.1</b> Overview</a></li>
+<li class="chapter" data-level="12.2" data-path="RegionStrat.html"><a href="RegionStrat.html#region-and-age-stratified-population-attributable-differences-in-length-for-age-z-scores"><i class="fa fa-check"></i><b>12.2</b> Region and age-stratified population attributable differences in length-for-age Z-scores</a></li>
+<li class="chapter" data-level="12.3" data-path="RegionStrat.html"><a href="RegionStrat.html#region-and-age-stratified-population-attributable-differences-in-weight-for-length-z-scores"><i class="fa fa-check"></i><b>12.3</b> Region and age-stratified population attributable differences in weight-for-length Z-scores</a></li>
+<li class="chapter" data-level="12.4" data-path="RegionStrat.html"><a href="RegionStrat.html#region-and-age-stratified-population-attributable-differences-in-weight-for-age-z-scores"><i class="fa fa-check"></i><b>12.4</b> Region and age-stratified population attributable differences in weight-for-age Z-scores</a></li>
+<li class="chapter" data-level="12.5" data-path="RegionStrat.html"><a href="RegionStrat.html#associations-between-key-exposures-and-wasting-and-stunting-cumulative-incidence-stratified-by-the-age-of-the-child-and-by-region"><i class="fa fa-check"></i><b>12.5</b> Associations between key exposures and wasting and stunting cumulative incidence, stratified by the age of the child and by region</a></li>
+<li class="chapter" data-level="12.6" data-path="RegionStrat.html"><a href="RegionStrat.html#associations-between-key-exposures-and-growth-failure-of-different-severities-stratified-by-region"><i class="fa fa-check"></i><b>12.6</b> Associations between key exposures and growth failure of different severities, stratified by region</a></li>
+<li class="chapter" data-level="12.7" data-path="RegionStrat.html"><a href="RegionStrat.html#adjusted-differences-in-linear-growth-velocity-in-centimeters-across-3-month-age-624-bands-by-quartile-of-weight-for-length-z-score-wlz-in-the-preceding-three-months-stratified-by-region."><i class="fa fa-check"></i><b>12.7</b> Adjusted differences in linear growth velocity (in centimeters) across 3-month age 624 bands, by quartile of weight-for-length z-score (WLZ) in the preceding three months, stratified by region.</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="mortality.html"><a href="mortality.html"><i class="fa fa-check"></i><b>13</b> Mortality Sensitivity Analyses</a><ul>
+<li class="chapter" data-level="13.1" data-path="mortality.html"><a href="mortality.html#overview-10"><i class="fa fa-check"></i><b>13.1</b> Overview</a><ul>
+<li class="chapter" data-level="13.1.1" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-different-ages-of-mortality"><i class="fa fa-check"></i><b>13.1.1</b> Comparisons of associations between early growth failure and different ages of mortality</a></li>
+<li class="chapter" data-level="13.1.2" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-different-ages-of-mortality-pooled-using-fixed-effects"><i class="fa fa-check"></i><b>13.1.2</b> Comparisons of associations between early growth failure and different ages of mortality, pooled using fixed effects</a></li>
+<li class="chapter" data-level="13.1.3" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-different-ages-of-mortality-dropping-biyearly-measured-cohorts"><i class="fa fa-check"></i><b>13.1.3</b> Comparisons of associations between early growth failure and different ages of mortality, dropping biyearly-measured cohorts</a></li>
+<li class="chapter" data-level="13.1.4" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-mortality-and-serious-growth-failure-stratified-by-region"><i class="fa fa-check"></i><b>13.1.4</b> Comparisons of associations between early growth failure and mortality and serious growth failure, stratified by region</a></li>
+<li class="chapter" data-level="13.1.5" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-mortality-and-serious-growth-failure-pooled-using-fixed-effects"><i class="fa fa-check"></i><b>13.1.5</b> Comparisons of associations between early growth failure and mortality and serious growth failure, pooled using fixed effects</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="dags.html"><a href="dags.html"><i class="fa fa-check"></i><b>14</b> Directed Acyclic Diagrams (DAGs)</a><ul>
+<li class="chapter" data-level="14.1" data-path="dags.html"><a href="dags.html#overview-11"><i class="fa fa-check"></i><b>14.1</b> Overview</a></li>
+<li class="chapter" data-level="14.2" data-path="dags.html"><a href="dags.html#simplified-example-dag"><i class="fa fa-check"></i><b>14.2</b> Simplified example DAG:</a></li>
+<li class="chapter" data-level="14.3" data-path="dags.html"><a href="dags.html#dag-used-association-between-maternal-weight-and-child-growth-faltering"><i class="fa fa-check"></i><b>14.3</b> DAG used: Association between maternal weight and child growth faltering</a></li>
+<li class="chapter" data-level="14.4" data-path="dags.html"><a href="dags.html#table-of-adjustment-covariates"><i class="fa fa-check"></i><b>14.4</b> Table of Adjustment Covariates</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="population.html"><a href="population.html"><i class="fa fa-check"></i><b>15</b> Population intervention effects on weight-for-age Z-scores</a><ul>
+<li class="chapter" data-level="15.0.1" data-path="population.html"><a href="population.html#figure"><i class="fa fa-check"></i><b>15.0.1</b> Figure</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="r-setup_splines-includefalse-libraryknitr-knitropts_chunksetecho-true-sourcepaste0herehere-0-config.r" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> <code>{r setup_splines, include=FALSE} # library(knitr) # knitr::opts_chunk$set(echo = TRUE) # source(paste0(here::here(), "/0-config.R")) #</code></h1>
+<iframe src="https://anmolseth.shinyapps.io/spline-risk-factors/?showcase=0" width="672" height="800px" data-external="1">
+</iframe>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="rf_splines.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="heatmaps.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/06-spline-risk-factor.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

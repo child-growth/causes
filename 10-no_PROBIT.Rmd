@@ -13,9 +13,9 @@ fontsize: 9pt
 
 ## Overview
 
-__Purpose: __
-__Interpretation: __
-__Implications: __
+__Purpose: __ The PROBIT trial, conducted in Belarus, was the only study included conducted in Europe, as opposed to Latin America, South Asia, or sub-Saharan Africa. It was also one of the largest studies, so may have an influential effect on the pooled estimates. Because of differences in income, environmental conditions, and population anthropometry, we reconducted the primary analyses without the PROBIT trial and present the results here.
+__Interpretation: __ Exclusion of the PROBIT trail did not affect the main inferences presented in the manuscript.
+__Implications: __ It was appropriate to include the PROBIT trial in the pooled results presented as the primary results of the manuscript.
 
 
 

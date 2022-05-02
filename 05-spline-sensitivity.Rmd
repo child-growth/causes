@@ -34,7 +34,7 @@ include_graphics(paste0(fig_dir, "/risk-factor/spline_grid.png"))
 
 ### Spline figures - meta-analysis of cohort specific splines, different parameters
 
-Centered at age = 1 says and with 6 degrees of freedom 
+Centered at age = 1 days and with 6 degrees of freedom 
 
 ```{r, echo = FALSE}
 

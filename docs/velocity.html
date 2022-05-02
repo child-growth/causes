@@ -24,7 +24,7 @@
 <meta name="author" content="Andrew Mertens et al." />
 
 
-<meta name="date" content="2021-08-30" />
+<meta name="date" content="2022-02-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,7 @@
   
 <link rel="prev" href="RR.html"/>
 <link rel="next" href="fixed-effects.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -70,16 +70,15 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Stunting Supplementary Information</a></li>
+<li><a href="./">Causes and Consequences Supplementary Information</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
-<li class="chapter" data-level="2" data-path="RR.html"><a href="RR.html"><i class="fa fa-check"></i><b>2</b> Pooled relative risk and average treatment effect plots</a>
+<li class="chapter" data-level="2" data-path="RR.html"><a href="RR.html"><i class="fa fa-check"></i><b>2</b> Relative risk plots</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="RR.html"><a href="RR.html#overview-1"><i class="fa fa-check"></i><b>2.1</b> Overview</a></li>
-<li class="chapter" data-level="2.2" data-path="RR.html"><a href="RR.html#to-do"><i class="fa fa-check"></i><b>2.2</b> To do:</a>
+<li class="chapter" data-level="2.1" data-path="RR.html"><a href="RR.html#overview-1"><i class="fa fa-check"></i><b>2.1</b> Overview</a>
 <ul>
-<li class="chapter" data-level="2.2.1" data-path="RR.html"><a href="RR.html#relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes"><i class="fa fa-check"></i><b>2.2.1</b> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</a></li>
+<li class="chapter" data-level="2.1.1" data-path="RR.html"><a href="RR.html#relative-risks-between-levels-of-all-exposures-for-prevalence-and-cumulative-incidence-of-wasting-and-stunting-outcomes"><i class="fa fa-check"></i><b>2.1.1</b> Relative risks between levels of all exposures for prevalence and cumulative incidence of wasting and stunting outcomes</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="velocity.html"><a href="velocity.html"><i class="fa fa-check"></i><b>3</b> Growth velocity</a>
@@ -117,8 +116,8 @@
 <ul>
 <li class="chapter" data-level="7.1" data-path="rf-splines.html"><a href="rf-splines.html#overview-6"><i class="fa fa-check"></i><b>7.1</b> Overview</a>
 <ul>
-<li class="chapter" data-level="7.1.1" data-path="rf-splines.html"><a href="rf-splines.html#secondary-spline-figures---laz-stratified-by-levels-of-exposures"><i class="fa fa-check"></i><b>7.1.1</b> Secondary spline figures - LAZ stratified by levels of exposures</a></li>
-<li class="chapter" data-level="7.1.2" data-path="rf-splines.html"><a href="rf-splines.html#secondary-spline-figures---wlz-stratified-by-levels-of-exposures"><i class="fa fa-check"></i><b>7.1.2</b> Secondary spline figures - WLZ stratified by levels of exposures</a></li>
+<li class="chapter" data-level="7.1.1" data-path="rf-splines.html"><a href="rf-splines.html#secondary-spline-figures---haz-stratified-by-levels-of-exposures"><i class="fa fa-check"></i><b>7.1.1</b> Secondary spline figures - HAZ stratified by levels of exposures</a></li>
+<li class="chapter" data-level="7.1.2" data-path="rf-splines.html"><a href="rf-splines.html#secondary-spline-figures---whz-stratified-by-levels-of-exposures"><i class="fa fa-check"></i><b>7.1.2</b> Secondary spline figures - WHZ stratified by levels of exposures</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="heatmaps.html"><a href="heatmaps.html"><i class="fa fa-check"></i><b>8</b> Heatmaps</a>
@@ -133,13 +132,10 @@
 <li class="chapter" data-level="9.1" data-path="no-PROBIT.html"><a href="no-PROBIT.html#overview-8"><i class="fa fa-check"></i><b>9.1</b> Overview</a></li>
 <li class="chapter" data-level="9.2" data-path="no-PROBIT.html"><a href="no-PROBIT.html#comparison-of-attributable-differences-estimated-with-and-without-the-probit-trial"><i class="fa fa-check"></i><b>9.2</b> Comparison of attributable differences estimated with and without the PROBIT trial</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="RR-forest.html"><a href="RR-forest.html"><i class="fa fa-check"></i><b>10</b> Forest plots of relative risk</a>
-<ul>
-<li class="chapter" data-level="10.1" data-path="RR-forest.html"><a href="RR-forest.html#overview-9"><i class="fa fa-check"></i><b>10.1</b> Overview</a></li>
-</ul></li>
+<li class="chapter" data-level="10" data-path="RR-forest.html"><a href="RR-forest.html"><i class="fa fa-check"></i><b>10</b> Forest plots of relative risk</a></li>
 <li class="chapter" data-level="11" data-path="RegionStrat.html"><a href="RegionStrat.html"><i class="fa fa-check"></i><b>11</b> Regionally-stratified plots</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="RegionStrat.html"><a href="RegionStrat.html#overview-10"><i class="fa fa-check"></i><b>11.1</b> Overview</a></li>
+<li class="chapter" data-level="11.1" data-path="RegionStrat.html"><a href="RegionStrat.html#overview-9"><i class="fa fa-check"></i><b>11.1</b> Overview</a></li>
 <li class="chapter" data-level="11.2" data-path="RegionStrat.html"><a href="RegionStrat.html#region-and-age-stratified-population-attributable-differences-in-length-for-age-z-scores"><i class="fa fa-check"></i><b>11.2</b> Region and age-stratified population attributable differences in length-for-age Z-scores</a></li>
 <li class="chapter" data-level="11.3" data-path="RegionStrat.html"><a href="RegionStrat.html#region-and-age-stratified-population-attributable-differences-in-weight-for-length-z-scores"><i class="fa fa-check"></i><b>11.3</b> Region and age-stratified population attributable differences in weight-for-length Z-scores</a></li>
 <li class="chapter" data-level="11.4" data-path="RegionStrat.html"><a href="RegionStrat.html#region-and-age-stratified-population-attributable-differences-in-weight-for-age-z-scores"><i class="fa fa-check"></i><b>11.4</b> Region and age-stratified population attributable differences in weight-for-age Z-scores</a></li>
@@ -149,7 +145,7 @@
 </ul></li>
 <li class="chapter" data-level="12" data-path="mortality.html"><a href="mortality.html"><i class="fa fa-check"></i><b>12</b> Mortality Sensitivity Analyses</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="mortality.html"><a href="mortality.html#overview-11"><i class="fa fa-check"></i><b>12.1</b> Overview</a>
+<li class="chapter" data-level="12.1" data-path="mortality.html"><a href="mortality.html#overview-10"><i class="fa fa-check"></i><b>12.1</b> Overview</a>
 <ul>
 <li class="chapter" data-level="12.1.1" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-different-ages-of-mortality"><i class="fa fa-check"></i><b>12.1.1</b> Comparisons of associations between early growth failure and different ages of mortality</a></li>
 <li class="chapter" data-level="12.1.2" data-path="mortality.html"><a href="mortality.html#comparisons-of-associations-between-early-growth-failure-and-different-ages-of-mortality-pooled-using-fixed-effects"><i class="fa fa-check"></i><b>12.1.2</b> Comparisons of associations between early growth failure and different ages of mortality, pooled using fixed effects</a></li>
@@ -160,8 +156,14 @@
 </ul></li>
 <li class="chapter" data-level="13" data-path="dags.html"><a href="dags.html"><i class="fa fa-check"></i><b>13</b> Directed Acyclic Diagrams (DAGs)</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="dags.html"><a href="dags.html#overview-12"><i class="fa fa-check"></i><b>13.1</b> Overview</a></li>
-<li class="chapter" data-level="13.2" data-path="dags.html"><a href="dags.html#example-dag"><i class="fa fa-check"></i><b>13.2</b> Example DAG</a></li>
+<li class="chapter" data-level="13.1" data-path="dags.html"><a href="dags.html#overview-11"><i class="fa fa-check"></i><b>13.1</b> Overview</a></li>
+<li class="chapter" data-level="13.2" data-path="dags.html"><a href="dags.html#simplified-example-dag"><i class="fa fa-check"></i><b>13.2</b> Simplified example DAG:</a></li>
+<li class="chapter" data-level="13.3" data-path="dags.html"><a href="dags.html#dag-used-association-between-maternal-weight-and-child-growth-faltering"><i class="fa fa-check"></i><b>13.3</b> DAG used: Association between maternal weight and child growth faltering</a></li>
+<li class="chapter" data-level="13.4" data-path="dags.html"><a href="dags.html#table-of-adjustment-covariates"><i class="fa fa-check"></i><b>13.4</b> Table of Adjustment Covariates</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="population.html"><a href="population.html"><i class="fa fa-check"></i><b>14</b> Population intervention effects on weight-for-age Z-scores</a>
+<ul>
+<li class="chapter" data-level="14.0.1" data-path="population.html"><a href="population.html#figure"><i class="fa fa-check"></i><b>14.0.1</b> Figure</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -187,9 +189,14 @@
 <h1><span class="header-section-number">Chapter 3</span> Growth velocity</h1>
 <div id="overview-2" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Overview</h2>
-<p><strong>Purpose: </strong>
-<strong>Interpretation: </strong>
-<strong>Implications: </strong></p>
+<p><strong>Purpose:</strong></p>
+<p>The primary manuscript documents the population intervention effects of different child, parental, and household risk factors on absolute child Z-scores at different ages. Here, we present the difference in linear and ponderal growth velocities between the observed mean velocities and the estimated mean velocities if the exposures were shifted to the low-risk level. We calculated the change in LAZ, WAZ, length in centimeters, and weight in kilograms within 3-month age intervals, including measurements within a two-week window around each age in months to account for variation in the age of each length measurement.</p>
+<p><strong>Interpretation: </strong></p>
+<p>Most risk factors were not significantly associated with increased growth.</p>
+<p><strong>Implications: </strong></p>
+<p>An important finding relates to the associations between maternal anthropometry, birth anthropometry, and catch-up growth. We found that maternal anthropometry is generally not associated with growth velocity, consistent with the mostly parallel growth trajectories shown in Figure 3, except for associations between maternal height and early growth.</p>
+<p>Mother’s height was strongly associated with all 4 measures of growth velocity in the first 3 months of life. Taller mothers gave birth to infants who grew faster (PIE: 0.017 [95% CI: 0.028, 0.006] for LAZ velocity. This is also noticeable in Figure 3a, where growth faltering as measured by change in LAZ is lower in the first 3 months for children of taller mothers than for children of shorter mothers. After 3 months, maternal height had non-significant or very small effects on LAZ, WAZ, height, and weight velocities.</p>
+<p>Mother’s weight was not associated with LAZ or WAZ velocities but was associated with increased length velocity for most age categories after 6 months and weight velocities before 15 months. Higher maternal BMI was associated with a decreased LAZ velocity before 3 months and increased weight velocity before 6 months, but not with other ages or measures of growth velocity.</p>
 </div>
 <div id="age-stratified-population-attributable-differences-in-change-in-length-for-age-z-scores-over-3-month-age-bands." class="section level2" number="3.2">
 <h2><span class="header-section-number">3.2</span> Age-stratified population attributable differences in change in length-for-age Z-scores over 3-month age bands.</h2>
