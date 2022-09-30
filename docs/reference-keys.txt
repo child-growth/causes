@@ -56,3 +56,6 @@ dag-used-association-between-maternal-weight-and-child-growth-faltering
 table-of-adjustment-covariates
 population
 figure
+missing
+overview-12
+heatmap-of-covariate-missingness-by-study

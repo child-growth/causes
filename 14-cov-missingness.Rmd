@@ -1,0 +1,36 @@
+# Complete-Case Sensitivity Analyses {#missing}
+
+---
+output:
+  pdf_document:
+    keep_tex: yes
+fontfamily: mathpazo
+fontsize: 9pt
+---
+
+
+\raggedright
+
+
+```{r setup_mort, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE)
+source(paste0(here::here(), "//0-config.R"))
+```
+
+## Overview
+
+__Purpose: __
+__Interpretation: __
+__Implications: __
+
+
+
+### Heatmap of covariate missingness by study
+
+```{r, echo = FALSE}
+include_graphics(paste0(fig_dir, "/risk-factor/fig-rf-cov-missigness-heatmap.png"))
+
+```
+
+
