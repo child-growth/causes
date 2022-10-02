@@ -34,3 +34,13 @@ include_graphics(paste0(fig_dir, "/risk-factor/fig-rf-cov-missigness-heatmap.png
 ```
 
 
+### Sensitivity analysis to complete case versus median/mode imputed analyses
+
+```{r, echo = FALSE}
+include_graphics(paste0(fig_dir, "/risk-factor/PIE_CC_sens.png"))
+
+```
+
+
+
+

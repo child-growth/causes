@@ -27,3 +27,10 @@ __Implications: __
 <img src="figures//risk-factor/fig-rf-cov-missigness-heatmap.png" width="900" />
 
 
+### Sensitivity analysis to complete case versus median/mode imputed analyses
+
+<img src="figures//risk-factor/PIE_CC_sens.png" width="750" />
+
+
+
+
