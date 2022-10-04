@@ -29,7 +29,9 @@ __Implications: __
 
 ### Sensitivity analysis to complete case versus median/mode imputed analyses
 
-<img src="figures//risk-factor/PIE_CC_sens.png" width="750" />
+The median absolute difference in pooled Z-scores was 0.009 and the mean absolute difference was 0.022.
+
+<img src="figures//risk-factor/PIE_CC_sens.png" width="1050" />
 
 
 

@@ -36,6 +36,8 @@ include_graphics(paste0(fig_dir, "/risk-factor/fig-rf-cov-missigness-heatmap.png
 
 ### Sensitivity analysis to complete case versus median/mode imputed analyses
 
+The median absolute difference in pooled Z-scores was 0.009 and the mean absolute difference was 0.022.
+
 ```{r, echo = FALSE}
 include_graphics(paste0(fig_dir, "/risk-factor/PIE_CC_sens.png"))
 
