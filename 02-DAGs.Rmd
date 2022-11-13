@@ -58,7 +58,13 @@ adjustment_sets <- list(
              "single",
              "W_nrooms","W_nhh","W_nchldlt5",
              "brthmon","W_parity",
-             "trth2o","cleanck","impfloor","impsan","safeh20"),         
+             "trth2o","cleanck","impfloor","impsan","safeh20"), 
+    sga=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+             "single",
+             "W_nrooms","W_nhh","W_nchldlt5",
+             "brthmon","W_parity",
+             "trth2o","cleanck","impfloor","impsan","safeh20"), 
   
   birthwt=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
             "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
@@ -76,13 +82,13 @@ adjustment_sets <- list(
              "brthmon","W_parity",
              "trth2o","cleanck","impfloor","impsan","safeh20"),   
   
-  vagbrth=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
-            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
-            "hdlvry",
-            "single",
-            "W_nrooms","W_nhh","W_nchldlt5",
-            "brthmon","W_parity",
-            "trth2o","cleanck","impfloor","impsan","safeh20"),     
+  # vagbrth=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
+  #           "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
+  #           "hdlvry",
+  #           "single",
+  #           "W_nrooms","W_nhh","W_nchldlt5",
+  #           "brthmon","W_parity",
+  #           "trth2o","cleanck","impfloor","impsan","safeh20"),     
   
   hdlvry=c("arm","sex", "W_mage", "W_fage", "meducyrs", "feducyrs", "hhwealth_quart", "hfoodsec",
            "W_mhtcm","W_mwtkg","W_bmi", "W_fhtcm",
@@ -282,6 +288,7 @@ cov_df = do.call(rbind, Map(data.frame, Exposure=var_names, "Potential adjustmen
 cov_df$`Potential adjustment covariates` = gsub('W_', '', cov_df$`Potential adjustment covariates`)
 
 cov_df[cov_df == 'gagebrth'] <- 'Gestational age at birth'
+cov_df[cov_df == 'sga'] <- 'Small for gestational age'
 cov_df[cov_df == 'birthwt'] <-  'Birthweight (kg)'
 cov_df[cov_df == 'birthlen'] <- 'Birth length (cm)'
 cov_df[cov_df == 'vagbrth'] <- 'Vaginal birth'
