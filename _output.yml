@@ -15,3 +15,8 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
+bookdown::html_document2: 
+bookdown::pdf_document2:
+  keep_tex: true
+bookdown::word_document2:
+  toc: true

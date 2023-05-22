@@ -30,11 +30,11 @@ The heatmaps below are of the same design as Extended Data Figure 2, and show th
 
 ## Heatmap of significance of estimates pooled using fixed effects
 
-<img src="figures//risk-factor/fig-sig-heatmap_FE.png" width="1725" />
+![](figures//risk-factor/fig-sig-heatmap_FE.png)<!-- -->
 
 
 
 
 ## Heatmap of significance of estimate, unadjusted 
 
-<img src="figures//risk-factor/fig-sig-heatmap_unadj.png" width="1725" />
+![](figures//risk-factor/fig-sig-heatmap_unadj.png)<!-- -->

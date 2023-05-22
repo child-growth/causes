@@ -39,7 +39,7 @@ Mother’s weight was not associated with LAZ or WAZ velocities but was associat
 Exposures, rank ordered by pooled population attributable difference on child LAZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.
 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-vel-PAR.png" width="2250" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-vel-PAR.png)<!-- -->
 
 
 
@@ -48,7 +48,7 @@ Exposures, rank ordered by pooled population attributable difference on child LA
 Exposures, rank ordered by pooled population attributable difference on child WAZ velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean Z-score if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.
 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-waz-vel-PAR.png" width="2250" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-waz-vel-PAR.png)<!-- -->
 
 
 
@@ -58,7 +58,7 @@ Exposures, rank ordered by pooled population attributable difference on child WA
 Exposures, rank ordered by pooled population attributable difference on child length velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean differences in lengths (cm) if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.
 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-length-vel-PAR.png" width="2250" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-length-vel-PAR.png)<!-- -->
 
 
 ## Age-stratified population attributable differences in change in child weight over 3-month age bands.
@@ -66,7 +66,7 @@ Exposures, rank ordered by pooled population attributable difference on child le
 Exposures, rank ordered by pooled population attributable difference on child length velocities, stratified by the age of the child at the time of anthropometry measurements. The population attributable difference is the expected difference in population mean differences in lengths (cm) if all children had the reference level of the exposure rather than the observed distribution. For all plots, reference levels are printed next to the name of the exposure. Estimates are adjusted for all other measured exposures not on the causal pathway.
 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-weight-vel-PAR.png" width="2250" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-weight-vel-PAR.png)<!-- -->
 
 
 

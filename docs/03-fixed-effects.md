@@ -33,19 +33,19 @@ The fixed effect estimates are weighted towards results from larger studies, so 
 
 More estimates are significant when pooling using fixed effects due to the generally smaller confidence intervals.
 
-<img src="figures//risk-factor/fig-sig-heatmap_FE.png" width="1725" />
+![](figures//risk-factor/fig-sig-heatmap_FE.png)<!-- -->
 **Figure 1a.  Heatmap of significance and direction across exposure-outcome combinations of associations estimated using fixed effects. ** 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-age_FE.png" width="1800" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-age_FE.png)<!-- -->
 **Extended Data Figure 3 | Age-stratified population attributable differences in length-for-age Z-scores estimated using fixed effects. ** 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-age_FE.png" width="1800" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-age_FE.png)<!-- -->
 **Extended Data Figure 4 | Age-stratified population attributable differences in weight-for-length Z-scores estimated using fixed effects. ** 
 
 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-region_FE.png" width="1800" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-laz-PAR-strat-region_FE.png)<!-- -->
 **Extended Data Figure 7 | Region-stratified population attributable differences in length-for-age Z-scores estimated using fixed effects. ** 
 
-<img src="figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-region_FE.png" width="1800" />
+![](figures//manuscript-figure-composites/risk-factor/extended-data/fig-wlz-PAR-strat-region_FE.png)<!-- -->
 **Extended Data Figure 8 | Region-stratified population attributable differences in weight-for-length Z-scores estimated using fixed effects. ** 

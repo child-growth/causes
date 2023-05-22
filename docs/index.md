@@ -1,7 +1,7 @@
 --- 
 title: "Supplement to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries"
 author: "Andrew Mertens et al."
-date: "2022-11-13"
+date: "2023-05-17"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -12,11 +12,11 @@ github-repo: rstudio/bookdown-demo
 description: "This is supplementary information to Causes and Consequences of Child Growth Failure in Low- and Middle-income Countries"
 ---
 
-# Overview
+<!-- # Overview -->
 
-**Recommended citation:** Mertens A N, et al. 2020. Causes and consequences of child growth failure in low- and middle-income countries. *Submitted*. doi. 
+<!-- **Recommended citation:** Mertens A N, et al. 2020. Causes and consequences of child growth failure in low- and middle-income countries. *Submitted*. doi.  -->
 
-This site contains supplementary information to the *Causes and consequences of child growth failure in low- and middle-income countries*. 
+<!-- This site contains supplementary information to the *Causes and consequences of child growth failure in low- and middle-income countries*.  -->
 
 
 

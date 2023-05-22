@@ -21,4 +21,4 @@ __Implications: __ The strength of associations between exposures and WAZ at 24 
 
 ### Figure
 
-<img src="figures//risk-factor/fig-PAR-waz.png" width="1200" />
+![](figures//risk-factor/fig-PAR-waz.png)<!-- -->
